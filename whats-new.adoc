@@ -13,7 +13,7 @@ summary: 'Découvrez les nouveautés d"Amazon FSX pour ONTAP.'
 :imagesdir: ./media/
 
 
-[role="lead^"]
+[role="lead"]
 Découvrez les nouveautés d'Amazon FSX pour ONTAP.
 
 
