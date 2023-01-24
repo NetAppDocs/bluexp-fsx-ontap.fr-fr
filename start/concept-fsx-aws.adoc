@@ -54,8 +54,8 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 
 == Obtenir de l'aide
 
-Amazon FSX pour ONTAP est une solution AWS propriétaire. Pour toute question ou tout problème de support technique concernant votre système de fichiers AWS FSX, votre infrastructure ou toute solution AWS utilisant ce service, utilisez le centre de support de votre console AWS pour ouvrir un dossier de demande de support vers AWS. Sélectionnez le service “FSX pour ONTAP” et la catégorie appropriée. Fournissez les informations restantes nécessaires pour créer un dossier de demande de support AWS.
+Amazon FSX pour ONTAP est une solution AWS propriétaire. Pour toute question ou tout problème de support technique concernant votre système de fichiers Amazon FSX pour ONTAP, votre infrastructure ou toute solution utilisant ce service, utilisez le centre de support de votre console AWS pour ouvrir un dossier de demande de support auprès d'AWS. Sélectionnez le service “FSX pour ONTAP” et la catégorie appropriée. Fournissez les informations restantes nécessaires pour créer un dossier de demande de support AWS.
 
-Pour les questions générales spécifiques aux micro-services BlueXP ou BlueXP, vous pouvez commencer par le chat en ligne BlueXP.
+Pour des questions générales sur les micro-services BlueXP ou BlueXP, vous pouvez commencer par le chat en ligne BlueXP.
 
-Pour les problèmes de support technique spécifiques à BlueXP ou aux micro-services, vous pouvez ouvrir un ticket de support NetApp à l'aide du numéro de série de votre compte BlueXP. Vous devez enregistrer votre numéro de série BlueXP pour activer le support.
+Pour les problèmes de support technique spécifiques à BlueXP ou aux micro-services, vous pouvez ouvrir un ticket de support NetApp à l'aide du numéro de série de votre compte BlueXP. Vous devez le faire link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/support/task-support-registration.html["Enregistrez votre compte BlueXP"^] pour activer le support.
