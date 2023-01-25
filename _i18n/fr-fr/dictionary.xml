@@ -712,9 +712,7 @@
   <block id="24eab999bc6be3c2241c58c7aee7ae10" category="paragraph">Vous pouvez gérer la capacité automatique avec un connecteur actif dans AWS.</block>
   <block id="938b92d62e3cd9d5d18b4db5abd32cfa" category="list-text">Sélectionnez l'icône crayon (<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>) Pour ouvrir la page *gestion automatique de la capacité*.</block>
   <block id="c6a640d3ad983820aec62cd7b77b9b54" category="paragraph">Amazon FSX pour ONTAP est une solution AWS propriétaire. Pour toute question ou tout problème de support technique concernant votre système de fichiers Amazon FSX pour ONTAP, votre infrastructure ou toute solution utilisant ce service, utilisez le centre de support de votre console AWS pour ouvrir un dossier de demande de support auprès d'AWS. Sélectionnez le service “FSX pour ONTAP” et la catégorie appropriée. Fournissez les informations restantes nécessaires pour créer un dossier de demande de support AWS.</block>
-  <block id="f1018077b1703f5d0801e8cd07c23fb9" category="paragraph">Pour des questions générales sur les micro-services BlueXP ou BlueXP, vous pouvez commencer par le chat en ligne BlueXP.</block>
   <block id="41fa05171eb08b9478abe51f41110a5f" category="inline-link-macro">Enregistrez votre compte BlueXP</block>
-  <block id="97bc2947e30223870f8c99f41ffe970b" category="paragraph">Pour les problèmes de support technique spécifiques à BlueXP ou aux micro-services, vous pouvez ouvrir un ticket de support NetApp à l'aide du numéro de série de votre compte BlueXP. Vous devez le faire <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> pour activer le support.</block>
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">Prise en charge des solutions des fournisseurs cloud</block>
   <block id="58cbf70b5dfbc206d1d9c6559ae58d1b" category="paragraph">Pour obtenir une assistance technique sur les solutions de fournisseurs de services Cloud, reportez-vous à la section « obtention d'aide » de la documentation BlueXP de votre produit.</block>
   <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
@@ -722,4 +720,6 @@
   <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service pour Google Cloud</block>
   <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="22850eb27bb038f94f5523ebf27dc330" category="paragraph">Pour des questions générales sur les services BlueXP ou BlueXP, vous pouvez commencer par le chat en ligne BlueXP.</block>
+  <block id="997b1bcf43010470fb566a2da2b036e0" category="paragraph">Pour les problèmes de support technique spécifiques aux services BlueXP ou BlueXP, vous pouvez ouvrir un ticket de support NetApp à l'aide du numéro de série de votre compte BlueXP. Vous devez le faire <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> pour activer le support.</block>
 </blocks>
