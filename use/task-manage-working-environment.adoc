@@ -34,8 +34,8 @@ La gestion automatique de la capacité est désactivée par défaut. Vous pouvez
 Vous pouvez gérer la capacité automatique sans connecteur actif dans AWS.
 
 .Étapes
-. Ouvrez l'environnement de travail FSX pour ONTAP.
-. Sélectionnez l'icône de menu (image:icon-three-dots.png["Illustration de l'icône du menu à trois points."]) Et sélectionnez *gérer la capacité automatique*.
+. Sélectionnez l'environnement de travail FSX pour ONTAP sur la toile.
+. Dans le panneau *Détails*, utilisez l'icône à trois points (image:icon-three-dots.png["icône de trois points"]) pour ouvrir le menu d'options. Cliquez sur *gérer la capacité automatique*.
 +
 image:screenshot-auto-capacity-no-connector.png["Capture d'écran du menu gérer la capacité automatique."]
 
@@ -139,18 +139,19 @@ image:screenshot_fsx_working_environment_remove.png["Capture d'écran de l'optio
 
 Vous pouvez supprimer FSX pour ONTAP de BlueXP.
 
-.Avant de commencer
-* Vous devez link:task-manage-fsx-volumes.html#delete-volumes["supprimez tous les volumes"] associé au système de fichiers.
-
-
-
-NOTE: Vous aurez besoin d'un connecteur actif dans AWS pour supprimer ou supprimer des volumes.
-
-* Vous ne pouvez pas supprimer un environnement de travail contenant des volumes ayant échoué. Les volumes défaillants doivent être supprimés via la console de gestion AWS ou l'interface de ligne de commande avant de supprimer FSX pour le système de fichiers ONTAP.
-
-
 
 WARNING: Cette action supprimera toutes les ressources associées à l'environnement de travail. Cette action ne peut pas être annulée.
+
+.Avant de commencer
+Avant de supprimer l'environnement de travail, vous devez :
+
+* Rompez toutes les relations de réplication avec cet environnement de travail.
+* link:task-manage-fsx-volumes.html#delete-volumes["Supprimer tous les volumes"] associé au système de fichiers. Vous aurez besoin d'un connecteur actif dans AWS pour supprimer ou supprimer des volumes.
++
+
+NOTE: Les volumes en panne doivent être supprimés via la console de gestion AWS ou l'interface de ligne de commande.
+
+
 
 .Étapes
 . Ouvrir l'environnement de travail. Si vous n'avez pas de connecteur dans AWS, l'écran d'invite s'affiche. Vous pouvez ignorer cette procédure et supprimer l'environnement de travail.

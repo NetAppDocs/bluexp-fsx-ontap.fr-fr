@@ -18,6 +18,12 @@ Découvrez les nouveautés d'Amazon FSX pour ONTAP.
 
 
 
+== 05 mars 2023
+
+Des améliorations ont été apportées à l'interface utilisateur et des captures d'écran ont été mises à jour dans la documentation.
+
+
+
 == 01 janvier 2023
 
 Vous pouvez maintenant choisir d'activer link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#manage-automatic-capacity["gestion automatique de la capacité"^] pour ajouter du stockage incrémentiel à la demande. La gestion automatique de la capacité interroge le cluster à intervalles réguliers afin d'évaluer la demande et augmente automatiquement la capacité de stockage par incréments de 10 % à 80 % de la capacité maximale du cluster.
