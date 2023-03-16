@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Amazon FSx for ONTAP
+  name: Amazon FSx for NetApp ONTAP
   platform: cloud
   internal:
     pdf_enabled: true
@@ -11,7 +11,7 @@ settings:
   langs: fr-fr,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es
 sidebar:
   entries:
-  - title: Documents Amazon FSX pour ONTAP
+  - title: Documents relatifs à Amazon FSX pour NetApp ONTAP
     url: "/index.html"
   - title: Notes de mise à jour
     url: "/whats-new.html"
@@ -27,7 +27,7 @@ sidebar:
       url: "/requirements/task-setting-up-permissions-fsx.html"
     - title: Règles de groupe de sécurité pour FSX pour ONTAP
       url: "/requirements/reference-security-groups-fsx.html"
-  - title: Utilisez Amazon FSX pour ONTAP
+  - title: Utilisez Amazon FSX pour NetApp ONTAP
     entries:
     - title: Créer ou découvrir un environnement de travail
       url: "/use/task-creating-fsx-working-environment.html"
