@@ -110,7 +110,7 @@ image:screenshot-configure-iops.png["Capture d'écran de la page pour modifier l
 [NOTE]
 ====
 ** Le taux d'utilisation maximal recommandé est de 80 % pour le maintien des performances du Tiering des données et la possibilité d'ajouter de la capacité pour des données supplémentaires.
-** La sélection de *Automatic* IOPS conserve un ratio de trois IOPS SSD provisionnées par Gio de stockage primaire jusqu'à 80,000. Vous ne pouvez pas provisionner manuellement une valeur d'IOPS supérieure ou égale à 80,000.
+** Si vous sélectionnez *Automatic* IOPS, le ratio de trois IOPS SSD provisionnées par Gio de stockage primaire est maintenu jusqu'à 160,000. Vous ne pouvez pas provisionner manuellement une valeur d'IOPS supérieure à 160,000.
 
 
 ====
