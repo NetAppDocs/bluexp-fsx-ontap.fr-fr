@@ -34,12 +34,12 @@ La gestion automatique de la capacité est désactivée par défaut. Vous pouvez
 Vous pouvez gérer la capacité automatique sans connecteur actif dans AWS.
 
 .Étapes
-. Sélectionnez l'environnement de travail FSX pour ONTAP sur la toile.
-. Dans le panneau *Détails*, utilisez l'icône à trois points (image:icon-three-dots.png["icône de trois points"]) pour ouvrir le menu d'options. Cliquez sur *gérer la capacité automatique*.
+. Sélectionnez l'environnement de travail sur le canevas et sélectionnez *entrer l'environnement de travail*.
+. Sélectionnez l'icône crayon (image:icon-pencil.png["Illustration de l'icône d'édition du crayon."]) Pour ouvrir la page *gestion automatique de la capacité*.
 +
-image:screenshot-auto-capacity-no-connector.png["Capture d'écran du menu gérer la capacité automatique."]
 
-. Sur la page *gestion automatique de la capacité* :
+NOTE: Toutes les autres options nécessitent un connecteur et sont désactivées.
+
 +
 ** Cochez la case pour activer la gestion automatique de la capacité.
 ** Décochez la case pour désactiver la gestion automatique de la capacité si elle était activée auparavant.
@@ -80,9 +80,6 @@ Vous avez besoin d'un actif https://docs.netapp.com/us-en/cloud-manager-setup-ad
 . Ouvrez l'environnement de travail FSX pour ONTAP.
 . Dans l'onglet *Présentation*, sélectionnez *fonctionnalités*.
 . Sélectionnez l'icône crayon (image:icon-pencil.png["Illustration de l'icône d'édition du crayon."]) Pour ouvrir la page d'édition *capacité de débit*.
-+
-image:screenshot-change-thruput.png["Capture d'écran de l'emplacement du menu de modification de la capacité de débit."]
-
 . Sélectionnez une nouvelle capacité de débit dans la liste déroulante et sélectionnez *mettre à jour*. Cette modification peut prendre jusqu'à 25 minutes pour effet et n'interrompt pas l'accès aux données.
 
 
@@ -99,9 +96,6 @@ Vous avez besoin d'un actif https://docs.netapp.com/us-en/cloud-manager-setup-ad
 . Ouvrez l'environnement de travail FSX pour ONTAP.
 . Dans l'onglet *Présentation*, sélectionnez *fonctionnalités*.
 . Sélectionnez l'icône crayon (image:icon-pencil.png["Illustration de l'icône d'édition du crayon."]) Pour ouvrir la page de modification *capacité de stockage et IOPS*.
-+
-image:screenshot-change-iops.png["Capture d'écran de l'emplacement du menu modification de la capacité de stockage et IOPS."]
-
 . Vous pouvez modifier la capacité de stockage et les IOPS toutes les six heures. Si vous tentez d'apporter des modifications plus fréquemment, une erreur s'affiche.
 +
 image:screenshot-configure-iops.png["Capture d'écran de la page pour modifier la capacité de stockage et les valeurs d'IOPS."]

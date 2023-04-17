@@ -265,7 +265,6 @@
   <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp prend en charge BlueXP et ses services cloud de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Ces options sont disponibles gratuitement, 24 heures sur 24, 7 jours sur 7 :</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base de connaissances</block>
-  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">Recherchez dans la base de connaissances BlueXP des articles utiles pour résoudre les problèmes.</block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Communautés</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
@@ -363,14 +362,10 @@
   <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">Dans l'onglet *Présentation*, sélectionnez *fonctionnalités*.</block>
   <block id="7ccd7b62d91207f4ba83029de9cebfce" category="inline-image-macro">Illustration de l'icône d'édition du crayon.</block>
   <block id="2498d03a4261c0c377ff9aa14f08a01b" category="list-text">Sélectionnez l'icône crayon (<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>) Pour ouvrir la page d'édition *capacité de débit*.</block>
-  <block id="87b240f45f566a73d19136ab81e90ad1" category="inline-image-macro">Capture d'écran de l'emplacement du menu de modification de la capacité de débit.</block>
-  <block id="e09dc417c2d896d165ca331477153842" category="paragraph"><block ref="e09dc417c2d896d165ca331477153842" category="inline-image-macro-rx" type="image"></block></block>
   <block id="230f70d1e5d26fbe6e5ad10f5308cabe" category="list-text">Sélectionnez une nouvelle capacité de débit dans la liste déroulante et sélectionnez *mettre à jour*. Cette modification peut prendre jusqu'à 25 minutes pour effet et n'interrompt pas l'accès aux données.</block>
   <block id="a0ebe9e341b2c5054b22afc7d98d1401" category="section-title">Modifiez la capacité de stockage et les IOPS</block>
   <block id="f3c93b45ca50102a9f0b7eae1e06d071" category="paragraph">Vous pouvez modifier la capacité de stockage et les IOPS à tout moment après la création de l'environnement de travail FSX pour ONTAP.</block>
   <block id="048b8d92cffbe45e8afec553ae5bdab0" category="list-text">Sélectionnez l'icône crayon (<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>) Pour ouvrir la page de modification *capacité de stockage et IOPS*.</block>
-  <block id="d6684930c2875391fe70b5eb14401bbb" category="inline-image-macro">Capture d'écran de l'emplacement du menu modification de la capacité de stockage et IOPS.</block>
-  <block id="687579d242782f9a851dc5bb5ba9abc9" category="paragraph"><block ref="687579d242782f9a851dc5bb5ba9abc9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dfb628b495d5e0828edcde206a117a0d" category="list-text">Vous pouvez modifier la capacité de stockage et les IOPS toutes les six heures. Si vous tentez d'apporter des modifications plus fréquemment, une erreur s'affiche.</block>
   <block id="e67f7cfa37e5dcd4f3836e76f5301a68" category="inline-image-macro">Capture d'écran de la page pour modifier la capacité de stockage et les valeurs d'IOPS.</block>
   <block id="f5aa006a4894acbba121bdb32f513ead" category="paragraph"><block ref="f5aa006a4894acbba121bdb32f513ead" category="inline-image-macro-rx" type="image"></block></block>
@@ -586,8 +581,6 @@
   <block id="baf936091e5717d22f9c2b2ccee10188" category="paragraph">La gestion automatique de la capacité est désactivée par défaut. Vous pouvez gérer la capacité automatique avec ou sans connecteur actif dans AWS.</block>
   <block id="2ccb2d581067f0eac436a078317d136d" category="section-title">Gérez la capacité automatique sans connecteur actif</block>
   <block id="13c4ac4dcec1decf7e36eed04316808f" category="paragraph">Vous pouvez gérer la capacité automatique sans connecteur actif dans AWS.</block>
-  <block id="eae78abc1ac9b9443e78946ea0ac6f62" category="inline-image-macro">Capture d'écran du menu gérer la capacité automatique.</block>
-  <block id="8568f4aa8725b5fac6d8be22b191626f" category="paragraph"><block ref="8568f4aa8725b5fac6d8be22b191626f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7c48e42b8eb4f773ff1ba4e512f8d941" category="list-text">Sur la page *gestion automatique de la capacité* :</block>
   <block id="fc3a15f119ad5decc28ff415b2538e29" category="list-text">Cochez la case pour activer la gestion automatique de la capacité.</block>
   <block id="b7e02100f637951d6f90e4991487480c" category="list-text">Décochez la case pour désactiver la gestion automatique de la capacité si elle était activée auparavant.</block>
@@ -630,7 +623,6 @@
   <block id="190d60175b0eacbdfa304b7842dfdbeb" category="paragraph">BlueXP affiche votre système de fichiers FSX pour ONTAP découvert sur la toile. Vous pouvez désormais ajouter des volumes à votre environnement de travail FSX pour ONTAP à l'aide de BlueXP.</block>
   <block id="7ed3f8d43ed4db5c9e5058ffd0629f8e" category="list-text">Sélectionnez l'environnement de travail FSX pour ONTAP sur la toile.</block>
   <block id="ecfec57afc8858c85d63541a36a09dab" category="inline-image-macro">icône de trois points</block>
-  <block id="c0f7f08571189db02e2d550c230d6abf" category="list-text">Dans le panneau *Détails*, utilisez l'icône à trois points (<block ref="4d658ec40ed039406a8a891871de0f3d" category="inline-image-macro-rx" type="image"></block>) pour ouvrir le menu d'options. Cliquez sur *gérer la capacité automatique*.</block>
   <block id="0cf6b9b81deec54f9429260623e85e8b" category="paragraph">Avant de supprimer l'environnement de travail, vous devez :</block>
   <block id="23419c7b0a3275446ffc7e82955443ad" category="list-text">Rompez toutes les relations de réplication avec cet environnement de travail.</block>
   <block id="1cf37f8bb2a45b0eb43d008c81e06383" category="inline-link-macro">Supprimer tous les volumes</block>
@@ -748,4 +740,7 @@
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Pièce jointe (facultatif)* : téléchargez jusqu'à cinq pièces jointes, une à la fois.</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Les pièces jointes sont limitées à 25 Mo par fichier. Les extensions de fichier suivantes sont prises en charge : txt, log, PDF, jpg/JPEG, rtf, doc/docx, xls/xlsx et csv.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Mettre à jour les notes de cas* : fournir des détails supplémentaires sur votre problème ou sélectionner *Télécharger les fichiers* pour joindre jusqu'à cinq fichiers.</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="857256e1923ea05bf18e14bc2411a2f6" category="list-text">Sélectionnez l'environnement de travail sur le canevas et sélectionnez *entrer l'environnement de travail*.</block>
+  <block id="015abe149b937f218b783e72c81c3e66" category="admonition">Toutes les autres options nécessitent un connecteur et sont désactivées.</block>
 </blocks>
