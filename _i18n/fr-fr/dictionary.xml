@@ -609,7 +609,6 @@
   <block id="b04e1903e3de2fffa52c1c517b8fed45" category="list-text">*Tables de routage* (zones de disponibilité multiples uniquement)</block>
   <block id="f884e9a3951c5c6df696ce1faeecf517" category="paragraph">Sélectionnez des tables de routage qui incluent des routes vers les adresses IP flottantes. Si vous ne disposez que d'une seule table de routage pour les sous-réseaux de votre VPC (la table de routage principale), BlueXP ajoute automatiquement les adresses IP flottantes à cette table de routage.</block>
   <block id="a150e060bd138eb9dd07f260966de37f" category="list-text">*Chiffrement de données*</block>
-  <block id="9ecf502b4c55c670661584e0a2866004" category="paragraph">Acceptez la clé principale AWS par défaut ou cliquez sur *changer la clé* pour sélectionner une autre clé maître client AWS (CMK). Pour plus d'informations sur CMK, reportez-vous à la section<block ref="e519e39311516455306db28fa7daaed2" category="inline-link-rx"></block>.</block>
   <block id="a1ab9258bbeb31ecc1e35b1adc9465dc" category="list-text">*Configuration du stockage*</block>
   <block id="e38fe475552b433630789034542b28de" category="list-text">Sélectionnez le débit, la capacité et l'unité. Vous pouvez à tout moment modifier le débit, la capacité de stockage et les IOPS.</block>
   <block id="704b454e0a67ad9d30229aad055c4456" category="paragraph"><block ref="704b454e0a67ad9d30229aad055c4456" category="inline-image-macro-rx" type="image"></block></block>
@@ -618,8 +617,6 @@
   <block id="a434ec7166240525e1136a9caf043a5e" category="list-text">Cliquez sur *Précédent* pour modifier les paramètres ou sur *Ajouter* pour accepter les paramètres et créer votre environnement de travail.</block>
   <block id="1f56efe328efe9c20f590e659125509a" category="paragraph">BlueXP affiche votre configuration FSX pour ONTAP sur la toile. Vous pouvez désormais ajouter des volumes à votre environnement de travail FSX pour ONTAP à l'aide de BlueXP.</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">Description de la tâche</block>
-  <block id="3c98e2bfe156ca99fa37e38b1eb68d0d" category="inline-link-macro">création d'un nouvel environnement de travail</block>
-  <block id="e3ed7d241946f79ddb205b1bcc1095b7" category="paragraph">Vous pouvez découvrir les systèmes de fichiers FSX pour ONTAP par <block ref="7605911292967addd7ea4683855fa385" category="inline-link-macro-rx"></block> Ou en utilisant la page *Mes opportunités*. Cette tâche décrit la découverte à l'aide de *Mes opportunités*</block>
   <block id="190d60175b0eacbdfa304b7842dfdbeb" category="paragraph">BlueXP affiche votre système de fichiers FSX pour ONTAP découvert sur la toile. Vous pouvez désormais ajouter des volumes à votre environnement de travail FSX pour ONTAP à l'aide de BlueXP.</block>
   <block id="7ed3f8d43ed4db5c9e5058ffd0629f8e" category="list-text">Sélectionnez l'environnement de travail FSX pour ONTAP sur la toile.</block>
   <block id="ecfec57afc8858c85d63541a36a09dab" category="inline-image-macro">icône de trois points</block>
@@ -743,4 +740,6 @@
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="857256e1923ea05bf18e14bc2411a2f6" category="list-text">Sélectionnez l'environnement de travail sur le canevas et sélectionnez *entrer l'environnement de travail*.</block>
   <block id="015abe149b937f218b783e72c81c3e66" category="admonition">Toutes les autres options nécessitent un connecteur et sont désactivées.</block>
+  <block id="5f7a63a809602fb324d9cb35527588c3" category="paragraph">Acceptez la clé principale AWS par défaut ou cliquez sur *changer la clé* pour sélectionner une autre clé maître client AWS (CMK). Pour plus d'informations sur CMK, reportez-vous à la section <block ref="1dc4ebcb4490720ee959d2e943d1421f" category="inline-link-macro-rx"></block>.</block>
+  <block id="a5444638448a3ec03827da5d57eb445b" category="paragraph">Vous pouvez découvrir les systèmes de fichiers FSX pour ONTAP quand vous le souhaitez <block ref="7d3d3d003158d818e356e6a619082003" category="inline-xref-macro-rx"></block> Ou en utilisant la page *Mes opportunités*. Cette tâche décrit la découverte à l'aide de *Mes opportunités*</block>
 </blocks>
