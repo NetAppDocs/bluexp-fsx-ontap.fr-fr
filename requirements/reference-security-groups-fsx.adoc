@@ -268,13 +268,13 @@ Le groupe de sécurité du connecteur nécessite à la fois des règles entrante
 | SSH | 22 | Fournit un accès SSH à l'hôte du connecteur 
 
 
-| HTTP | 80 | Fournit un accès HTTP depuis les navigateurs Web du client vers l'interface utilisateur locale et les connexions à partir de Cloud Data SENSE 
+| HTTP | 80 | Fournit un accès HTTP à l'interface utilisateur locale depuis les navigateurs Web client et des connexions à partir de l'instance de classification BlueXP 
 
 
 | HTTPS | 443 | Fournit un accès HTTPS à partir des navigateurs Web du client vers l'interface utilisateur locale 
 
 
-| TCP | 3128 | Fournit l'instance Cloud Data SENSE avec un accès Internet si votre réseau AWS n'utilise pas de NAT ou de proxy 
+| TCP | 3128 | Fournit l'instance de classification BlueXP avec un accès Internet, si votre réseau AWS n'utilise pas de NAT ou de proxy 
 |===
 
 
@@ -348,5 +348,5 @@ NOTE: L'adresse IP source est l'hôte du connecteur.
 | DNS | UDP | 53 | DNS | Utilisé pour la résolution DNS par BlueXP 
 
 
-| Sens des données cloud | HTTP | 80 | Instance Cloud Data Sense | Des solutions clouds adaptées à Cloud Volumes ONTAP 
+| Classification BlueXP | HTTP | 80 | Classification BlueXP | Classification BlueXP pour Cloud Volumes ONTAP 
 |===
