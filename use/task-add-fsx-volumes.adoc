@@ -42,11 +42,6 @@ image:screenshot-add-volume.png["Capture d'écran de l'option Ajouter un volume 
 .. Les champs du SVM (Storage VM) renseigne automatiquement le SVM en fonction du nom de votre environnement de travail.
 .. Entrez la taille du volume et sélectionnez une unité (Gio ou Tio). Notez que la taille du volume va augmenter en fonction de l'utilisation.
 .. Sélectionnez une règle de snapshots. Par défaut, un instantané est créé toutes les heures (en conservant les six dernières copies), tous les jours (en conservant les deux dernières copies) et toutes les semaines (en conservant les deux dernières copies).
-.. Si vous le souhaitez, sélectionnez l'option d'optimisation pour créer une FlexGroup et distribuer les données de volume au sein du cluster.
-+
-
-NOTE: La distribution FlexGroup est disponible uniquement pour les protocoles de volume NFS et CIFS.
-
 
 
 . *Volumes Protocole* :
@@ -134,10 +129,6 @@ image:screenshot-volume-protocol-iscsi.png["Capture d'écran de la configuration
 .. Par défaut, *Tiering Policy* est défini sur *snapshot Only*. Vous pouvez sélectionner une autre règle de hiérarchisation en fonction de vos besoins.
 +
 image:screenshot_fsx_volume_usage_tiering.png["Capture d'écran de la configuration du profil d'utilisation et du Tiering pour FSX pour la création de volume ONTAP."]
-
-.. Si vous avez sélectionné optimisation (FlexGroup), vous devez spécifier le nombre de composants dans lesquels distribuer les données de volume. Nous recommandons vivement d'utiliser un nombre pair de composants pour assurer une distribution uniforme des données. La meilleure pratique est de 8 constituants.
-+
-image:screenshot-constituents.png["Capture d'écran du champ permettant de spécifier le nombre de composants à distribuer les données de volume."]
 
 
 
