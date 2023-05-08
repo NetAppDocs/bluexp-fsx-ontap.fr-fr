@@ -65,6 +65,19 @@ Une fois que vous avez créé un volume, vous pouvez créer un nouveau volume en
 
 
 
+== Gérer les balises de volume
+
+Vous pouvez ajouter, modifier ou supprimer des balises de volume. Les balises ajoutées à BlueXP sont reflétées dans la console AWS. La synchronisation des balises avec la console AWS peut prendre jusqu'à une heure.
+
+.Étapes
+. Ouvrir l'environnement de travail.
+. Ouvrez l'onglet volume et sélectionnez *gérer le volume* pour ouvrir le menu *actions de volume*.
+. Sélectionnez *gérer les balises de volume*.
+. Sélectionnez *Enregistrer* pour appliquer vos modifications.
+
+
+
+
 == Gérer les copies Snapshot
 
 Les copies Snapshot fournissent une copie instantanée de votre volume. Création de copies Snapshot et restauration des données sur un nouveau volume.

@@ -33,8 +33,14 @@ Configurez un rôle IAM qui permet à BlueXP d'assumer le rôle.
 *** Pour AWS GovCloud (USA) : 033442085313
 
 
-** Créez une stratégie qui inclut les autorisations suivantes :
+** Créez une stratégie qui inclut les autorisations minimales requises et facultatives suivantes, si nécessaire.
 +
+[role="tabbed-block"]
+====
+.Autorisations requises
+--
+Les autorisations minimales suivantes sont requises pour permettre à BlueXP de créer votre système de fichiers FSX pour NetApp ONTAP.
+
 [source, json]
 ----
 {
@@ -50,19 +56,43 @@ Configurez un rôle IAM qui permet à BlueXP d'assumer le rôle.
                 "iam:CreateServiceLinkedRole",
                 "kms:Describe*",
                 "kms:List*",
-                "kms:CreateGrant",
-                "cloudwatch:GetMetricData",
-                "cloudwatch:GetMetricStatistics"
+                "kms:CreateGrant"
             ],
             "Resource": "*"
         }
     ]
 }
 ----
-+
+--
+.Capacité automatique
+--
+Les autorisations supplémentaires suivantes sont requises pour l'activation link:../use/task-manage-fsx-working-environment.html["gestion automatique de la capacité"].
 
-NOTE: `"cloudwatch:GetMetricData"` et `"cloudwatch:GetMetricStatistics"` sont nécessaires pour activer link:../use/task-manage-working-environment.html["gestion automatique de la capacité"].
+[source, json]
+----
+"cloudwatch:GetMetricData",
+"cloudwatch:GetMetricStatistics"
+----
+--
+.Groupes de sécurité
+--
+Les autorisations supplémentaires suivantes sont requises pour permettre à BlueXP de link:../use/task-creating-fsx-working-environment.html["générer des groupes de sécurité"].
 
+[source, json]
+----
+"ec2:AuthorizeSecurityGroupEgress",
+"ec2:AuthorizeSecurityGroupIngress",
+"ec2:RevokeSecurityGroupEgress",
+"ec2:RevokeSecurityGroupIngress",
+"ec2:CreateSecurityGroup",
+"ec2:DeleteSecurityGroup"
+"cloudformation:CreateStack",
+"cloudformation:ValidateTemplate",
+"cloudformation:DescribeStacks",
+"cloudformation:DescribeStackEvents"
+----
+--
+====
 
 
 . Copiez le rôle ARN du rôle IAM afin de pouvoir le coller dans BlueXP à l'étape suivante.
