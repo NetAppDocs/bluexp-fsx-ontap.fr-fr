@@ -347,7 +347,6 @@
   <block id="35f5a704747f7e6644a0bbedc33a0c2e" category="paragraph">Votre volume est maintenant monté sur l'hôte.</block>
   <block id="8539ab4c6f55c58d2fab4f2b3261bde9" category="section-title">Modification de la capacité de débit</block>
   <block id="4b1f2fea7e8048c8ccd3036ead1c2a76" category="paragraph">Vous pouvez modifier la capacité de débit à tout moment après la création de l'environnement de travail FSX pour ONTAP.</block>
-  <block id="e85b82fa898245e765ecb2eab8ee886e" category="paragraph">Vous avez besoin d'un actif<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>.</block>
   <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">Dans l'onglet *Présentation*, sélectionnez *fonctionnalités*.</block>
   <block id="7ccd7b62d91207f4ba83029de9cebfce" category="inline-image-macro">Illustration de l'icône d'édition du crayon.</block>
   <block id="2498d03a4261c0c377ff9aa14f08a01b" category="list-text">Sélectionnez l'icône crayon (<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>) Pour ouvrir la page d'édition *capacité de débit*.</block>
@@ -749,4 +748,10 @@
   <block id="9175bb34d0aede26315b313b9432bcbb" category="open-title">Groupes de sécurité</block>
   <block id="42c16fd45375c160089e29d754f16e36" category="inline-link-macro">générer des groupes de sécurité</block>
   <block id="78004ed8e8658d85d8a3d99a1a533922" category="paragraph">Les autorisations supplémentaires suivantes sont requises pour permettre à BlueXP de <block ref="37425afe2ceb1de25205a180b5a14074" category="inline-link-macro-rx"></block>.</block>
+  <block id="25ee158968a50cfd221a03cd5c35714d" category="list-text">Amazon FSX pour NetApp ONTAP est pris en charge lorsque BlueXP est utilisé en _standard_ ou _restricted_ mode.</block>
+  <block id="3cb5845101cca1d3632756ad505df41c" category="list-text">Le mode standard exploite la couche SaaS BlueXP pour offrir des fonctionnalités complètes.</block>
+  <block id="8515864aee35dd4c309a887dc85ffb7f" category="list-text">Le mode restreint est disponible pour les organisations qui ont des restrictions de connectivité.</block>
+  <block id="2579d10862aa7770a64b058fb84ce858" category="inline-link-macro">Modes de déploiement BlueXP</block>
+  <block id="4fc602d8b048690865d920b6e5c24b3c" category="paragraph">Reportez-vous à la section <block ref="4bc49635495ab7c2db508b6d63907d47" category="inline-link-macro-rx"></block> pour en savoir plus.</block>
+  <block id="b6b3f8e91334c4e2b9135fdcdc27fdb6" category="paragraph">Vous avez besoin d'un actif<block ref="3cb2ea74cf184f32793e529e96915ba2" category="inline-link-rx"></block>.</block>
 </blocks>
