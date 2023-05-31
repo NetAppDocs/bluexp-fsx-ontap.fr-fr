@@ -61,7 +61,7 @@ NOTE: link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-ru
 
 . *IP flottante* (zones de disponibilité multiples uniquement)
 +
-Laissez _CIDR Range_ vide pour définir automatiquement une plage disponible. Vous pouvez également utiliser https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-transit-gateway.html["Passerelle AWS Transit"^] pour configurer manuellement une plage.
+Laissez _CIDR Range_ vide pour définir automatiquement une plage disponible. Vous pouvez également utiliser https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-setting-up-transit-gateway.html["Passerelle AWS Transit"^] pour configurer manuellement une plage.
 
 . *Tables de routage* (zones de disponibilité multiples uniquement)
 +
@@ -69,7 +69,7 @@ Sélectionnez des tables de routage qui incluent des routes vers les adresses IP
 
 . *Chiffrement de données*
 +
-Acceptez la clé principale AWS par défaut ou cliquez sur *changer la clé* pour sélectionner une autre clé maître client AWS (CMK). Pour plus d'informations sur CMK, reportez-vous à la section link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-kms.html["Configuration du système AWS KMS"^].
+Acceptez la clé principale AWS par défaut ou cliquez sur *changer la clé* pour sélectionner une autre clé maître client AWS (CMK). Pour plus d'informations sur CMK, reportez-vous à la section link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-setting-up-kms.html["Configuration du système AWS KMS"^].
 
 . *Configuration du stockage*
 +

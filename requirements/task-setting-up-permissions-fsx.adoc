@@ -142,6 +142,6 @@ Vous pouvez maintenant utiliser les informations d'identification lors de la cr√
 
 == Liens connexes
 
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-accounts-aws.html["Identifiants et autorisations AWS"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html["Gestion des identifiants AWS pour BlueXP"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-accounts-aws.html["Identifiants et autorisations AWS"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-aws-accounts.html["Gestion des identifiants AWS pour BlueXP"^]
 

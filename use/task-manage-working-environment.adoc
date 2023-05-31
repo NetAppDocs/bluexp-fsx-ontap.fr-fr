@@ -74,7 +74,7 @@ Vous pouvez gérer la capacité automatique avec un connecteur actif dans AWS.
 Vous pouvez modifier la capacité de débit à tout moment après la création de l'environnement de travail FSX pour ONTAP.
 
 .Avant de commencer
-Vous avez besoin d'un actif https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["Connecteur dans AWS"^].
+Vous avez besoin d'un actif https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["Connecteur dans AWS"^].
 
 .Étapes
 . Ouvrez l'environnement de travail FSX pour ONTAP.
@@ -90,7 +90,7 @@ Vous avez besoin d'un actif https://docs.netapp.com/us-en/cloud-manager-setup-ad
 Vous pouvez modifier la capacité de stockage et les IOPS à tout moment après la création de l'environnement de travail FSX pour ONTAP.
 
 .Avant de commencer
-Vous avez besoin d'un actif https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["Connecteur dans AWS"^].
+Vous avez besoin d'un actif https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-aws.html["Connecteur dans AWS"^].
 
 .Étapes
 . Ouvrez l'environnement de travail FSX pour ONTAP.

@@ -36,13 +36,13 @@ link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["A
 ** Le mode standard exploite la couche SaaS BlueXP pour offrir des fonctionnalités complètes.
 ** Le mode restreint est disponible pour les organisations qui ont des restrictions de connectivité.
 +
-Reportez-vous à la section link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-modes.html["Modes de déploiement BlueXP"^] pour en savoir plus.
+Reportez-vous à la section link:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Modes de déploiement BlueXP"^] pour en savoir plus.
 
 
 
-* À l'aide de link:https://docs.netapp.com/us-en/cloud-manager-family/["BlueXP"^] (Cloud Manager) et un connecteur dans AWS, vous pouvez créer et gérer des volumes, répliquer des données et intégrer FSX pour ONTAP avec les services cloud NetApp, tels que la classification BlueXP et la copie et synchronisation BlueXP (Cloud Sync).
-* Avec la technologie d'intelligence artificielle (IA), la classification BlueXP (Cloud Data Sense) vous aide à comprendre le contexte des données et à identifier les données sensibles qui résident dans vos comptes FSX pour ONTAP. https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["En savoir plus >>"^].
-* Avec la copie et la synchronisation BlueXP, vous pouvez automatiser la migration des données vers n'importe quelle cible dans le cloud ou sur site. https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["En savoir plus >>"^]
+* À l'aide de link:https://docs.netapp.com/us-en/bluexp-family/["BlueXP"^] Enfin, un connecteur dans AWS vous permet de créer et de gérer des volumes, de répliquer des données et d'intégrer FSX pour ONTAP avec des services cloud NetApp, tels que la classification BlueXP et la copie et la synchronisation BlueXP.
+* Avec la technologie basée sur l'intelligence artificielle (IA), la classification BlueXP vous aide à comprendre le contexte des données et à identifier les données sensibles qui résident dans vos comptes FSX pour ONTAP. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["En savoir plus >>"^].
+* Avec la copie et la synchronisation BlueXP, vous pouvez automatiser la migration des données vers n'importe quelle cible dans le cloud ou sur site. https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["En savoir plus >>"^]
 
 
 
@@ -67,4 +67,4 @@ Amazon FSX pour NetApp ONTAP est une solution propriétaire AWS. Pour toute ques
 
 Pour des questions générales sur les solutions et services de stockage BlueXP ou BlueXP, vous pouvez commencer par le chat en ligne BlueXP.
 
-Pour les problèmes de support technique spécifiques aux solutions et services de stockage BlueXP ou BlueXP, vous pouvez ouvrir un ticket de support NetApp à l'aide du numéro de série de votre compte BlueXP. Vous devez le faire link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/support/task-support-registration.html["Enregistrez votre compte BlueXP"^] pour activer le support.
+Pour les problèmes de support technique spécifiques aux solutions et services de stockage BlueXP ou BlueXP, vous pouvez ouvrir un ticket de support NetApp à l'aide du numéro de série de votre compte BlueXP. Vous devez le faire link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/support/task-support-registration.html["Enregistrez votre compte BlueXP"^] pour activer le support.
