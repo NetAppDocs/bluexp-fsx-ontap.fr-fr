@@ -43,7 +43,8 @@ image:screenshot_add_fsx_working_env.png["Copie d'écran de l'ajout d'un environ
 . *Détails et références*
 +
 .. Saisissez le nom de l'environnement de travail que vous souhaitez utiliser.
-.. Vous pouvez éventuellement créer des balises pour catégoriser votre environnement de travail en cliquant sur le signe plus et en entrant un nom et une valeur de balise.
+.. Vous pouvez également créer des balises en cliquant sur le signe plus et en saisissant un nom et une valeur de balise.
+.. Vous pouvez également spécifier l'heure de début d'une maintenance hebdomadaire de 30 minutes pour Amazon FSX for NetApp ONTAP. Ceci peut être utilisé pour s'assurer que la maintenance ne coïncide pas avec les activités commerciales critiques. Si vous sélectionnez *aucune préférence*, une heure de début aléatoire sera attribuée. Vous pouvez le modifier à tout moment.
 .. Entrez et confirmez le mot de passe du cluster ONTAP que vous souhaitez utiliser.
 .. Éventuellement, désélectionner l'option d'utiliser le même mot de passe pour l'utilisateur SVM et définir un mot de passe différent.
 
@@ -61,8 +62,21 @@ NOTE: link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-ru
 
 . *IP flottante* (zones de disponibilité multiples uniquement)
 +
-Laissez _CIDR Range_ vide pour définir automatiquement une plage disponible. Vous pouvez également utiliser https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-setting-up-transit-gateway.html["Passerelle AWS Transit"^] pour configurer manuellement une plage.
+Laissez _CIDR Range_ vide pour définir automatiquement une plage disponible. Vous pouvez également utiliser https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-transit-gateway.html["Passerelle AWS Transit"^] pour configurer manuellement une plage.
 
++
+[WARNING]
+====
+.Les IPS dans les plages suivantes ne sont pas pris en charge :
+** 0.0.0.0/8
+** 127.0.0.0/8
+** 198.19.0.0/20
+** 224.0.0.0/4
+** 240.0.0.0/4
+** 255.255.255.255/32
+
+
+====
 . *Tables de routage* (zones de disponibilité multiples uniquement)
 +
 Sélectionnez des tables de routage qui incluent des routes vers les adresses IP flottantes. Si vous ne disposez que d'une seule table de routage pour les sous-réseaux de votre VPC (la table de routage principale), BlueXP ajoute automatiquement les adresses IP flottantes à cette table de routage.
