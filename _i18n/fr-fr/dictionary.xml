@@ -659,7 +659,6 @@
   <block id="5ad10cfb674234136c181d096cb59522" category="open-title">Autorisations requises</block>
   <block id="7b36ef7355ac702b97a1f4f36816d08c" category="paragraph">Les autorisations minimales suivantes sont requises pour permettre à BlueXP de créer votre système de fichiers FSX pour NetApp ONTAP.</block>
   <block id="79d6201c496cf246a16e25b2e725897a" category="open-title">Capacité automatique</block>
-  <block id="762e3bf022059ba9b9cc06c0d2c9b00d" category="paragraph">Les autorisations supplémentaires suivantes sont requises pour l'activation <block ref="4d6056f5ae867fac15604e7d63efb082" category="inline-link-macro-rx"></block>.</block>
   <block id="9175bb34d0aede26315b313b9432bcbb" category="open-title">Groupes de sécurité</block>
   <block id="42c16fd45375c160089e29d754f16e36" category="inline-link-macro">générer des groupes de sécurité</block>
   <block id="78004ed8e8658d85d8a3d99a1a533922" category="paragraph">Les autorisations supplémentaires suivantes sont requises pour permettre à BlueXP de <block ref="37425afe2ceb1de25205a180b5a14074" category="inline-link-macro-rx"></block>.</block>
@@ -763,4 +762,5 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Mise à niveau du logiciel Cloud Volumes ONTAP vers la dernière version</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">L'association des informations d'identification NSS à votre compte BlueXP est différente du compte NSS associé à une connexion utilisateur BlueXP.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">Ces informations d'identification NSS sont associées à votre ID de compte BlueXP spécifique. Les utilisateurs qui appartiennent au compte BlueXP peuvent accéder à ces informations d'identification depuis *support &gt; gestion NSS*.</block>
+  <block id="69ca45f3f7552de8b10ae32cba3897d2" category="paragraph">Les autorisations supplémentaires suivantes sont requises pour l'activation <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>.</block>
 </blocks>
