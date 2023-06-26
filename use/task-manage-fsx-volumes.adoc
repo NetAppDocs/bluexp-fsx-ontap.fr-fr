@@ -41,11 +41,6 @@ Une fois que vous avez créé un volume, vous pouvez le modifier à tout moment.
 . Ouvrir l'environnement de travail.
 . Ouvrez l'onglet volume et sélectionnez *gérer le volume* pour ouvrir le menu *actions de volume*.
 . Sélectionnez *Modifier les paramètres de volume*.
-+
-.. Pour NFS, vous pouvez modifier la taille et les balises.
-.. Pour CIFS, vous pouvez modifier le nom du partage, les utilisateurs, les autorisations et la stratégie Snapshot selon vos besoins.
-
-
 . Sélectionnez *appliquer*.
 
 
@@ -68,6 +63,9 @@ Une fois que vous avez créé un volume, vous pouvez créer un nouveau volume en
 == Gérer les balises de volume
 
 Vous pouvez ajouter, modifier ou supprimer des balises de volume. Les balises ajoutées à BlueXP sont reflétées dans la console AWS. La synchronisation des balises avec la console AWS peut prendre jusqu'à une heure.
+
+
+NOTE: Vous ne pouvez pas modifier les balises de volume que vous avez créées dans BlueXP tant qu'elles ne sont pas synchronisées avec AWS. Cela peut prendre jusqu'à une heure. Si l'option *gérer les balises de volume* est grisée, AWS n'a pas encore synchronisé les balises de volume.
 
 .Étapes
 . Ouvrir l'environnement de travail.

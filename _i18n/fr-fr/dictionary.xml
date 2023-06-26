@@ -382,8 +382,6 @@
   <block id="b29f6e00261f220f9ca9601a3dbc09df" category="section-title">Modifier les volumes</block>
   <block id="b609b522164fd601ccb14538b7074e4e" category="paragraph">Une fois que vous avez créé un volume, vous pouvez le modifier à tout moment.</block>
   <block id="a324b09bde8b0186d3f43692b7556fd9" category="list-text">Sélectionnez *Modifier les paramètres de volume*.</block>
-  <block id="4ba141f8bd3c71509d32aaf3d8ae34d6" category="list-text">Pour NFS, vous pouvez modifier la taille et les balises.</block>
-  <block id="ad348a3307068da0d1c8c03655a0d11e" category="list-text">Pour CIFS, vous pouvez modifier le nom du partage, les utilisateurs, les autorisations et la stratégie Snapshot selon vos besoins.</block>
   <block id="24347b3ddf5a25cc9c27e54ae285ade1" category="list-text">Sélectionnez *appliquer*.</block>
   <block id="fee2a02b904d6d1f207e959dbd807a75" category="section-title">Clones de volumes</block>
   <block id="6b94d8d9a10c7d18376b9f389dba9855" category="paragraph">Une fois que vous avez créé un volume, vous pouvez créer un nouveau volume en lecture/écriture à partir d'une nouvelle copie Snapshot.</block>
@@ -763,4 +761,5 @@
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">L'association des informations d'identification NSS à votre compte BlueXP est différente du compte NSS associé à une connexion utilisateur BlueXP.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">Ces informations d'identification NSS sont associées à votre ID de compte BlueXP spécifique. Les utilisateurs qui appartiennent au compte BlueXP peuvent accéder à ces informations d'identification depuis *support &gt; gestion NSS*.</block>
   <block id="69ca45f3f7552de8b10ae32cba3897d2" category="paragraph">Les autorisations supplémentaires suivantes sont requises pour l'activation <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>.</block>
+  <block id="1a152437275e48cffd13b98c296a5e3f" category="admonition">Vous ne pouvez pas modifier les balises de volume que vous avez créées dans BlueXP tant qu'elles ne sont pas synchronisées avec AWS. Cela peut prendre jusqu'à une heure. Si l'option *gérer les balises de volume* est grisée, AWS n'a pas encore synchronisé les balises de volume.</block>
 </blocks>
