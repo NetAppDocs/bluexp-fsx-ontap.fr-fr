@@ -112,16 +112,16 @@ image:screenshot_add_fsx_cloud.png["Copie d'écran d'Amazon FSX pour NetApp ONTA
 
 == Découvrir un système de fichiers FSX existant pour ONTAP
 
-Si vous avez fourni vos informations d'identification AWS à BlueXP, *Mes opportunités* peut automatiquement détecter et suggérer FSX pour les systèmes de fichiers ONTAP à ajouter et à gérer à l'aide de BlueXP. Vous pouvez également vérifier les services de données disponibles.
+Si vous avez précédemment fourni vos identifiants AWS à BlueXP, *mon environnement* peut détecter et suggérer automatiquement des systèmes de fichiers FSX pour ONTAP à ajouter et à gérer à l'aide de BlueXP. Vous pouvez également vérifier les services de données disponibles.
 
 .Description de la tâche
-Vous pouvez découvrir les systèmes de fichiers FSX pour ONTAP quand vous le souhaitez <<Créez un environnement de travail Amazon FSX pour NetApp ONTAP>> Ou en utilisant la page *Mes opportunités*. Cette tâche décrit la découverte à l'aide de *Mes opportunités*
+Vous pouvez découvrir les systèmes de fichiers FSX pour ONTAP quand vous le souhaitez <<Créez un environnement de travail Amazon FSX pour NetApp ONTAP>> Ou en utilisant la page *My Estate*. Cette tâche décrit la découverte à l'aide de *My Estate*
 
 .Étapes
-. Dans BlueXP, cliquez sur l'onglet *Mes opportunités*.
+. Dans BlueXP, cliquez sur l'onglet *My Estate*.
 . Le nombre de FSX découverts pour les systèmes de fichiers ONTAP s'affiche. Cliquez sur *découvrir*.
 +
-image:screenshot-opportunities.png["Capture d'écran de la page Mes opportunités pour FSX pour ONTAP."]
+image:screenshot-opportunities.png["Copie d'écran de la page My Estate pour FSX for ONTAP."]
 
 . Sélectionnez un ou plusieurs systèmes de fichiers et cliquez sur *Discover* pour les ajouter à la toile.
 

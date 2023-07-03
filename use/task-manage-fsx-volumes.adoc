@@ -107,14 +107,6 @@ Modifiez la règle de Tiering du volume.
 
 
 
-== Réplication et synchronisation des données
-
-Vous pouvez répliquer des données entre différents environnements de stockage à l'aide de BlueXP. Pour configurer FSX pour la réplication ONTAP, reportez-vous à la section https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["réplication des données entre les systèmes"^].
-
-Vous pouvez créer des relations de synchronisation à l'aide de la copie et de la synchronisation BlueXP. Pour configurer des relations de synchronisation, voir https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["création de relations synchronisées"^].
-
-
-
 == Supprimez des volumes
 
 Supprimez les volumes dont vous n'avez plus besoin.

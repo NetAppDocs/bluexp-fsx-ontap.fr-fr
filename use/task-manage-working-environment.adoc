@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: use/task-manage-working-environment.html 
-keywords: amazon fsx for netapp ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, automatic capacity management, capacity management, storage capacity 
-summary: 'BlueXP vous permet de gérer votre environnement de travail FSX pour ONTAP. Vous pouvez activer la gestion automatique de la capacité, modifier le débit, la capacité de stockage et les IOPS, et supprimer ou supprimer l"environnement de travail.' 
+keywords: amazon fsx for netapp ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, automatic capacity management, capacity management, storage capacity, replication, classification, sync, backup, recovery 
+summary: 'BlueXP vous permet de gérer votre environnement de travail FSX pour ONTAP. Vous pouvez activer la gestion automatique de la capacité, modifier le débit, la capacité de stockage et les IOPS, supprimer ou supprimer l"environnement de travail et gérer les services de données tels que la sauvegarde et la restauration, la copie et la synchronisation, la classification, la réplication et la mise en cache des volumes.' 
 ---
 = Gérez un environnement de travail Amazon FSX pour NetApp ONTAP
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'BlueXP vous permet de gérer votre environnement de travail FSX pour O
 
 
 [role="lead"]
-BlueXP vous permet de gérer votre environnement de travail FSX pour ONTAP. Vous pouvez activer la gestion automatique de la capacité, modifier le débit, la capacité de stockage et les IOPS, et supprimer ou supprimer l'environnement de travail.
+BlueXP vous permet de gérer votre environnement de travail FSX pour ONTAP. Vous pouvez activer la gestion automatique de la capacité, modifier le débit, la capacité de stockage et les IOPS, supprimer ou supprimer l'environnement de travail et gérer les services de données tels que la sauvegarde et la restauration, la copie et la synchronisation, la classification, la réplication et la mise en cache des volumes.
 
 
 
@@ -154,4 +154,21 @@ NOTE: Les volumes en panne doivent être supprimés via la console de gestion AW
 image:screenshot_fsx_working_environment_delete.png["Capture d'écran de l'option de suppression pour FSX pour ONTAP à partir de l'interface BlueXP."]
 
 . Entrez le nom de l'environnement de travail et sélectionnez *Supprimer*.
+
+
+
+
+== Gérer les services de données
+
+Vous pouvez gérer des services de données supplémentaires à partir de l'environnement de travail Amazon FSX pour NetApp ONTAP.
+
+image:data-services.png["Capture d'écran de l'onglet services de données de l'environnement de travail"]
+
+Pour plus d'informations sur la configuration des services de données, reportez-vous à :
+
+* link:https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Sauvegarde et restauration BlueXP"^] Protection des données efficace, sécurisée et économique pour les données NetApp ONTAP, les volumes persistants Kubernetes, les bases de données et les machines virtuelles, sur site et dans le cloud.
+* link:https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["Copie et synchronisation BlueXP"^] Est un service de réplication et de synchronisation dans le cloud pour le transfert de données NAS entre des magasins d'objets sur site et cloud.
+* link:https://docs.netapp.com/us-en/bluexp-classification/index.html["Classification BlueXP"^] permet d'analyser et de classer les données dans l'ensemble du multicloud hybride de votre entreprise.
+* link:https://docs.netapp.com/us-en/bluexp-replication/index.html["Réplication des données"^] Entre des systèmes de stockage ONTAP pour prendre en charge la sauvegarde et la reprise d'activité dans le cloud ou entre clouds.
+* link:https://docs.netapp.com/us-en/bluexp-volume-caching/index.html["Mise en cache du volume"^] fournit un volume inscriptible persistant dans un emplacement distant. Vous pouvez utiliser la mise en cache du volume BlueXP pour accélérer l'accès aux données ou pour décharger le trafic des volumes fortement sollicités.
 
