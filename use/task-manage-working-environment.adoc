@@ -4,7 +4,7 @@ permalink: use/task-manage-working-environment.html
 keywords: amazon fsx for netapp ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, automatic capacity management, capacity management, storage capacity, replication, classification, sync, backup, recovery 
 summary: 'BlueXP vous permet de gérer votre environnement de travail FSX pour ONTAP. Vous pouvez activer la gestion automatique de la capacité, modifier le débit, la capacité de stockage et les IOPS, supprimer ou supprimer l"environnement de travail et gérer les services de données tels que la sauvegarde et la restauration, la copie et la synchronisation, la classification, la réplication et la mise en cache des volumes.' 
 ---
-= Gérez un environnement de travail Amazon FSX pour NetApp ONTAP
+= Gérer un environnement de travail FSX pour ONTAP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -116,7 +116,7 @@ image:screenshot-configure-iops.png["Capture d'écran de la page pour modifier l
 
 == Supprimez FSX pour ONTAP de l'espace de travail
 
-Vous pouvez supprimer FSX pour ONTAP de BlueXP sans supprimer votre compte ou volumes FSX pour ONTAP. Vous pouvez à tout moment ajouter l'environnement de travail FSX pour ONTAP à BlueXP.
+Vous pouvez supprimer FSX for ONTAP de BlueXP sans supprimer votre compte ou vos volumes. Vous pouvez à tout moment ajouter l'environnement de travail FSX pour ONTAP à BlueXP.
 
 .Étapes
 . Ouvrir l'environnement de travail. Si vous n'avez pas de connecteur dans AWS, l'écran d'invite s'affiche. Vous pouvez ignorer cette procédure et procéder à la suppression de l'environnement de travail.
@@ -160,7 +160,7 @@ image:screenshot_fsx_working_environment_delete.png["Capture d'écran de l'optio
 
 == Gérer les services de données
 
-Vous pouvez gérer des services de données supplémentaires à partir de l'environnement de travail Amazon FSX pour NetApp ONTAP.
+Vous pouvez gérer des services de données supplémentaires à partir de l'environnement de travail FSX pour ONTAP.
 
 image:data-services.png["Capture d'écran de l'onglet services de données de l'environnement de travail"]
 

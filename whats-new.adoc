@@ -14,7 +14,7 @@ summary: 'Découvrez les nouveautés d"Amazon FSX pour NetApp ONTAP.'
 
 
 [role="lead"]
-Découvrez les nouveautés d'Amazon FSX pour NetApp ONTAP.
+Découvrez les nouveautés de FSX pour ONTAP.
 
 
 

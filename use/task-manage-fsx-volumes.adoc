@@ -4,7 +4,7 @@ permalink: use/task-manage-fsx-volumes.html
 keywords: fsx for ontap, fsx, aws, delete volumes, delete nfs volumes, delete cifs volumes, tiering policy, mount path, get mount path, mount volume, delete volumes, snapshots, edit volume, clone volume, clone 
 summary: 'Vous pouvez gérer des volumes, des clones et des snapshots, et modifier des règles de hiérarchisation pour FSX pour ONTAP à l"aide de BlueXP.' 
 ---
-= Gérez les volumes pour Amazon FSX pour NetApp ONTAP
+= Gestion des volumes pour FSX for ONTAP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -62,7 +62,7 @@ Une fois que vous avez créé un volume, vous pouvez créer un nouveau volume en
 
 == Gérer les balises de volume
 
-Vous pouvez ajouter, modifier ou supprimer des balises de volume. Les balises ajoutées à BlueXP sont reflétées dans la console AWS. La synchronisation des balises avec la console AWS peut prendre jusqu'à une heure.
+Vous pouvez ajouter, modifier ou supprimer des balises de volume. Les balises ajoutées à BlueXP sont reflétées dans la console de gestion AWS. La synchronisation des balises avec la console de gestion AWS peut prendre jusqu'à une heure.
 
 
 NOTE: Vous ne pouvez pas modifier les balises de volume que vous avez créées dans BlueXP tant qu'elles ne sont pas synchronisées avec AWS. Cela peut prendre jusqu'à une heure. Si l'option *gérer les balises de volume* est grisée, AWS n'a pas encore synchronisé les balises de volume.
