@@ -85,7 +85,7 @@ Les autorisations supplémentaires suivantes sont requises pour permettre à Blu
 "ec2:RevokeSecurityGroupEgress",
 "ec2:RevokeSecurityGroupIngress",
 "ec2:CreateSecurityGroup",
-"ec2:DeleteSecurityGroup"
+"ec2:DeleteSecurityGroup",
 "cloudformation:CreateStack",
 "cloudformation:ValidateTemplate",
 "cloudformation:DescribeStacks",
