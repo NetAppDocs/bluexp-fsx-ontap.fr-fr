@@ -168,22 +168,17 @@
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="section-title">Configurer le rôle IAM</block>
   <block id="1db8d07619da1f12a7b920676f6769ae" category="paragraph">Configurez un rôle IAM qui permet à BlueXP d'assumer le rôle.</block>
   <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">Accédez à la console IAM dans le compte cible.</block>
-  <block id="7f4640b00b5df83a54d4aaaa51f7d6ab" category="list-text">Sous gestion des accès, cliquez sur *rôles &gt; Créer un rôle* et suivez les étapes pour créer le rôle.</block>
   <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">Sous *Type d'entité approuvée*, sélectionnez *compte AWS*.</block>
-  <block id="c29858d9450fbef0a082acaa54d1bc6d" category="list-text">Sélectionnez *un autre compte AWS* et saisissez l'ID de BlueXP.</block>
   <block id="edcfddcfff54621c47b01eddd968a5b0" category="list-text">Pour BlueXP SaaS : 952013314444</block>
   <block id="319c3fdfa37c6b0ae4e91a351706489b" category="list-text">Pour AWS GovCloud (USA) : 033442085313</block>
-  <block id="fa9df323148192800073dd2a78c81f73" category="list-text">Copiez le rôle ARN du rôle IAM afin de pouvoir le coller dans BlueXP à l'étape suivante.</block>
   <block id="d47c23803528fa45fad33a3f83dfcf54" category="paragraph">Le rôle IAM dispose désormais des autorisations requises.</block>
   <block id="36bc52aaebad43ec3e49ed9a0efacd43" category="section-title">Ajoutez les informations d'identification</block>
   <block id="d5dc64744da4d60a47aa835877d08194" category="paragraph">Une fois que vous avez autorisé le rôle IAM, ajoutez le rôle ARN à BlueXP.</block>
-  <block id="6d9d6baff2479ce7a87bf705f93f1641" category="paragraph">Si vous venez de créer le rôle IAM, l'utilisation peut prendre quelques minutes. Attendez quelques minutes avant d'ajouter les informations d'identification à BlueXP.</block>
   <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">Dans le coin supérieur droit de la console BlueXP, cliquez sur l'icône Paramètres et sélectionnez *informations d'identification*.</block>
   <block id="be9d7b7687f0c55f7e65f14cd2b0f530" category="inline-image-macro">Capture d'écran affichant l'icône Paramètres dans le coin supérieur droit de la console BlueXP.</block>
   <block id="cb9e3791dcb67c8a699c104be6a1c49c" category="paragraph"><block ref="cb9e3791dcb67c8a699c104be6a1c49c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="11832df968cbb4cdb8e45984c11a77d0" category="list-text">Cliquez sur *Ajouter des informations d'identification* et suivez les étapes de l'assistant.</block>
   <block id="469d6f26b0e14d75fc0c834eeac72311" category="list-text">*Informations d'identification Location* : sélectionnez *Amazon Web Services &gt; BlueXP*.</block>
-  <block id="8cf335d7d3b1dd5cdac30699d20489c0" category="list-text">*Définir les informations d'identification* : fournir l'ARN (Amazon Resource Name) du rôle IAM.</block>
   <block id="a7cf2ac8ff4dd10d1e304f0abd7fe0bd" category="list-text">Si vous utilisez un compte AWS GovCloud (USA), consultez *j'utilise un compte AWS GovCloud (USA)*.</block>
   <block id="045e30d9d567e729274d9202eee4ff62" category="inline-image-macro">Capture d'écran de la case à cocher du compte GovCloud (USA).</block>
   <block id="c03a6ecd27b7a5ea40ee52d99c7a247a" category="paragraph"><block ref="c03a6ecd27b7a5ea40ee52d99c7a247a" category="inline-image-macro-rx" type="image"></block></block>
@@ -819,4 +814,12 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Bénéficiez du support pour les services de fichiers d'un fournisseur cloud</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Pour obtenir de l'aide concernant un service de fichiers d'un fournisseur cloud, son infrastructure ou toute solution utilisant le service, consultez la section « obtention d'aide » de la documentation BlueXP associée à ce produit.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Pour bénéficier du support technique spécifique à BlueXP et à ses solutions et services de stockage, utilisez les options de support décrites ci-dessous.</block>
+  <block id="8e2d9036bdca41a47ed6a62d5c651b17" category="list-text">Accordez l'accès BlueXP au compte AWS. Sous gestion des accès, cliquez sur *rôles &gt; Créer un rôle* et suivez les étapes pour créer le rôle.</block>
+  <block id="100857c2eecdae8b99b613fc837c4b77" category="list-text">Sélectionnez *un autre compte AWS* et entrez l'identifiant de compte BlueXP *ID* :</block>
+  <block id="7705419552b80484a159f2d27d7cf57b" category="inline-link-macro">_ID externe_</block>
+  <block id="2ecdc21261ba583d893ec3e735f02292" category="inline-link-macro">problème adjoint confus</block>
+  <block id="a382deac7db7b733bc63619e401d8f45" category="admonition">Pour une sécurité accrue, nous vous recommandons de spécifier un <block ref="96b272eff9669a5b2b13cba8c25b9973" category="inline-link-macro-rx"></block>. Pour accéder à votre compte AWS, BlueXP doit fournir le rôle ARN (Amazon Resource Name) et l'identifiant externe que vous avez spécifié. Cela empêche le <block ref="2847290d28a09952a637392df577ce64" category="inline-link-macro-rx"></block>.</block>
+  <block id="5490038d2be728c6d3679ab6915e87e3" category="list-text">Copiez l'ARN du rôle IAM afin de pouvoir le coller dans BlueXP à l'étape suivante.</block>
+  <block id="1a913f679da8e614b14423480f9ce6be" category="paragraph">Si vous venez de créer le rôle IAM, attendez quelques minutes pour que les nouvelles informations d'identification deviennent disponibles.</block>
+  <block id="a2841ca82f44794bf8912d92f8eaf4d6" category="list-text">*Définir les informations d'identification* : fournissez un *nom d'identification* et le *rôle ARN* et *ID externe* (si spécifié) que vous avez créés <block ref="a1061025d6c6e25a2b8607068ce69197" category="inline-xref-macro-rx"></block>.</block>
 </blocks>
