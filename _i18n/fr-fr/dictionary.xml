@@ -4,7 +4,6 @@
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX pour ONTAP</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">Caractéristiques</block>
   <block id="5e63cf07e8c4e2bc02fec4b907bfcc00" category="list-text">Nul besoin de configurer ou de gérer des périphériques, logiciels ou sauvegardes de stockage.</block>
-  <block id="620d7e4da65c27b65a66bca15517b802" category="list-text">Prise en charge des protocoles CIFS, NFSv3, NFSv4.x et SMB v2.0 - v3.1.1.</block>
   <block id="f6ad83cb7f527e383e392f709849a098" category="list-text">Capacité de stockage des données économique et quasi illimitée sur le Tier de stockage disponible rarement utilisé (IA).</block>
   <block id="3c36508c8697f7ec7a94803545518d69" category="list-text">Exécution certifiée sur des applications sensibles à la latence, y compris Oracle RAC.</block>
   <block id="6c2a9ed4ea140413912e894a10672e01" category="list-text">Vous avez le choix entre un bundle et une facturation à l'utilisation.</block>
@@ -822,4 +821,5 @@
   <block id="5490038d2be728c6d3679ab6915e87e3" category="list-text">Copiez l'ARN du rôle IAM afin de pouvoir le coller dans BlueXP à l'étape suivante.</block>
   <block id="1a913f679da8e614b14423480f9ce6be" category="paragraph">Si vous venez de créer le rôle IAM, attendez quelques minutes pour que les nouvelles informations d'identification deviennent disponibles.</block>
   <block id="a2841ca82f44794bf8912d92f8eaf4d6" category="list-text">*Définir les informations d'identification* : fournissez un *nom d'identification* et le *rôle ARN* et *ID externe* (si spécifié) que vous avez créés <block ref="a1061025d6c6e25a2b8607068ce69197" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1d2976e5126e0cf8526afeab66bc8fa3" category="list-text">Prise en charge des protocoles CIFS, iSCSI, NFSv3, NFSv4.x et SMB v2.0 - v3.1.1.</block>
 </blocks>
