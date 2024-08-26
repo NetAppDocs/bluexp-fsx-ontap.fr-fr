@@ -21,7 +21,7 @@ link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["A
 == Caractéristiques
 
 * Nul besoin de configurer ou de gérer des périphériques, logiciels ou sauvegardes de stockage.
-* Prise en charge des protocoles CIFS, iSCSI, NFSv3, NFSv4.x et SMB v2.0 - v3.1.1.
+* Prise en charge des https://docs.netapp.com/us-en/ontap/s3-config/ontap-version-support-s3-concept.html["S3"^] protocoles CIFS, iSCSI, NFSv3, NFSv4.x, et SMB v2.0 - v3.1.1.
 * Capacité de stockage des données économique et quasi illimitée sur le Tier de stockage disponible rarement utilisé (IA).
 * Exécution certifiée sur des applications sensibles à la latence, y compris Oracle RAC.
 * Vous avez le choix entre un bundle et une facturation à l'utilisation.
