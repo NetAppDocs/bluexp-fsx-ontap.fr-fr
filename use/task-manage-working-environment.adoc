@@ -114,7 +114,7 @@ image:screenshot-configure-iops.png["Capture d'écran de la page pour modifier l
 
 
 
-== Supprimez FSX pour ONTAP de l'espace de travail
+== Supprimez FSX pour ONTAP du projet ou de l'espace de travail
 
 Vous pouvez supprimer FSX for ONTAP de BlueXP sans supprimer votre compte ou vos volumes. Vous pouvez à tout moment ajouter l'environnement de travail FSX pour ONTAP à BlueXP.
 
