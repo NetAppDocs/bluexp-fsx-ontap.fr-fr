@@ -623,20 +623,6 @@
   <block id="8d757dbdc7fa419adfd2d9b20629a645" category="paragraph">Vous avez besoin d'un actif<block ref="36a4e36eea867c3f44362f37d4545eda" category="inline-link-rx"></block>.</block>
   <block id="b344b4701c7bc470b4d413e98ef9c9f9" category="cell">Sélectionnez *Activer la configuration du serveur NTP* pour configurer un serveur NTP à l'aide du DNS Active Directory. Si vous devez configurer un serveur NTP à l'aide d'une autre adresse, vous devez utiliser l'API. Voir la<block ref="7665d9260dd9d6a287f2bbc0560d523f" category="inline-link-rx"></block> pour plus d'informations.</block>
   <block id="82fec6d31b25a5ecb50c02e473be2188" category="list-text">Cliquez pour ajouter un ou plusieurs noms iSCSI qualifiés (IQN) de l'hôte. Vous pouvez sélectionner des IQN existants ou ajouter de nouveaux IQN. Pour plus de détails sur la recherche de l'IQN pour un volume, reportez-vous à la section <block ref="bb4247f1c80c630362ed25b8c41eed59" category="inline-link-macro-rx"></block>.</block>
-  <block id="b6f1ebb155eaf4c6e07d7a105b1d5a53" category="list-text">Lorsque vous créez un environnement de travail, vous pouvez désormais utiliser BlueXP <block ref="3ba2cfc3ef2a3c163fc4910682cfb7d6" category="inline-link-macro-rx"></block> Qui autorise le trafic dans le VPC sélectionné uniquement. Cette fonction <block ref="097f8dd60847dad6062ac7ea2bd09c06" category="inline-link-macro-rx"></block>.</block>
-  <block id="46ce6a634ad58fa667690e7f5c151b26" category="list-text">Vous pouvez en option <block ref="2af1713063b9a7e50c1f5e13c7671bae" category="inline-link-macro-rx"></block> et <block ref="013335dc35ce07c311c673e8a99c88f9" category="inline-link-macro-rx"></block> balises pour catégoriser les volumes.</block>
-  <block id="8b5edcd6e9d4ab9285ee3664af7ea2a9" category="paragraph">C'est possible maintenant <block ref="9b7f213d695f8dd25ea908078792fd69" category="inline-link-macro-rx"></block> À tout moment après avoir créé l'environnement de travail FSX pour ONTAP.</block>
-  <block id="733ef426ec092c634a1b7dbaf3373220" category="list-text">C'est possible maintenant <block ref="9152528a95687d317ab62dcde238fdef" category="inline-link-macro-rx"></block> À tout moment après avoir créé l'environnement de travail FSX pour ONTAP.</block>
-  <block id="32417d8e9e3c82c4c5314062782575c9" category="list-text">C'est possible maintenant <block ref="f635c46f2cd088dcf1369f807e47e94f" category="inline-link-macro-rx"></block> Vers les systèmes sur site et autres systèmes FSX pour ONTAP utilisant FSX pour ONTAP comme source.</block>
-  <block id="9f4e04fb3f0860f8350f8ebb5e3a6709" category="list-text">C'est possible maintenant <block ref="2e2cc205fa7502696c4503aa2708460c" category="inline-link-macro-rx"></block>.</block>
-  <block id="8fd7534d6aebbd882ef1960f77315b2f" category="paragraph"><block ref="8fd7534d6aebbd882ef1960f77315b2f" category="inline-link-macro-rx"></block></block>
-  <block id="e6d0f7e4f8ca7981e7941ccbbb8a1a64" category="paragraph"><block ref="e6d0f7e4f8ca7981e7941ccbbb8a1a64" category="inline-link-macro-rx"></block></block>
-  <block id="a192906bb862e862bbb53506559a844d" category="paragraph"><block ref="9516e987fbb53ba186cfd7cef3866a34" category="inline-link-macro-rx"></block>.</block>
-  <block id="a9736f093d873bda23fae5af0f2e59ad" category="paragraph">C'est possible <block ref="86859984b3fe2a3db500ca938508fd38" category="inline-link-macro-rx"></block> Dans FSX pour ONTAP.</block>
-  <block id="7c0b6ff49cfe71493375c14aa404ca6c" category="paragraph">Aujourd'hui c'est possible <block ref="52b661a6eadedcae5186a4ebf8b872ae" category="inline-link-macro-rx"></block>.</block>
-  <block id="9fb5d20591c6848f132647679c0da362" category="paragraph">Aujourd'hui c'est possible <block ref="89079ccbf05a0fc2ea3954d0d79bc38f" category="inline-link-macro-rx"></block>.</block>
-  <block id="557b3fb1f758926ca04bd11d6807c299" category="paragraph"><block ref="834ff3a562756e0b7e56a13f4eb96013" category="inline-link-macro-rx"></block>.</block>
-  <block id="d08ad840d921084daab3eb8ec7ed95d0" category="paragraph"><block ref="1e975261e8c6330d82170a203547fafa" category="inline-link-macro-rx"></block>.</block>
   <block id="9392a234f812a64a7add82bf3ea440ce" category="paragraph"><block ref="6c403399a6912b636ecf2c35a037d6c1" category="inline-link-macro-rx"></block>.</block>
   <block id="6bc0d0afbcf301d393b1808f854ff30e" category="list-text"><block ref="6bc0d0afbcf301d393b1808f854ff30e" category="inline-link-rx"></block></block>
   <block id="8fb5f344898fe922856ca069cb615707" category="list-text"><block ref="8fb5f344898fe922856ca069cb615707" category="inline-link-rx"></block></block>
@@ -728,10 +714,8 @@
   <block id="d41b120a4f792ebe6195de3355c6309a" category="inline-link-macro">Ajout d'une VM de stockage</block>
   <block id="ef4fe9904a05c0168f433db5ef979256" category="list-text">C'est possible maintenant <block ref="73429b7c98363ef2dcc9eca20bd224e7" category="inline-link-macro-rx"></block> Au système de fichiers Amazon FSX pour NetApp ONTAP à l'aide de BlueXP.</block>
   <block id="c835313828dae8f6f2e19118949a05ce" category="list-text">L'onglet **Mes possibilités** est maintenant **mon patrimoine**. La documentation est mise à jour pour refléter le nouveau nom.</block>
-  <block id="5acc19c1ac9cb4ec703f692929b77d4f" category="paragraph">Vous pouvez maintenant choisir d'activer <block ref="798ae2d54008eb1f5d42a000af614a06" category="inline-link-macro-rx"></block> pour ajouter du stockage incrémentiel à la demande. La gestion automatique de la capacité interroge le cluster à intervalles réguliers pour évaluer la demande et augmente automatiquement la capacité de stockage par incréments de 10 % jusqu'à 80 % de la capacité maximale du cluster.</block>
   <block id="8427e95422b20518ebfdf9669981c983" category="list-text">Si vous avez précédemment fourni vos identifiants AWS à Cloud Manager, la nouvelle fonctionnalité *mon patrimoine* peut automatiquement détecter et suggérer des systèmes de fichiers FSX pour ONTAP à ajouter et à gérer à l'aide de Cloud Manager. Vous pouvez également consulter les services de données disponibles via l'onglet *My Estate*.</block>
   <block id="690df0feee64ee1dfd9e2fabd3bd7196" category="inline-link-macro">Découvrez FSX pour ONTAP dans My Estate</block>
-  <block id="3126d0bb3bdeb0d61fd04be8640e4d8e" category="paragraph"><block ref="3126d0bb3bdeb0d61fd04be8640e4d8e" category="inline-link-macro-rx"></block></block>
   <block id="72bf8572f979788f8a9b08819c412e18" category="sidebar">Créer et monter un volume</block>
   <block id="a377a5b84f9f0bc2da96286bf312e442" category="sidebar">Ajoutez et gérez une VM de stockage</block>
   <block id="e2439a8512b353f75391ba9c346bc84d" category="sidebar">Gérer les volumes</block>
@@ -820,4 +804,34 @@
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Ces informations d'identification NSS sont associées à votre identifiant d'organisation BlueXP  spécifique. Les utilisateurs qui appartiennent à l'organisation BlueXP  peuvent accéder à ces informations d'identification à partir de *support &gt; gestion NSS*.</block>
   <block id="43bfe52d70c7aa3f5d364396cd6ec3fd" category="section-title">Supprimez FSX pour ONTAP du projet ou de l'espace de travail</block>
   <block id="6c6cfde7c92a73ae5e1266396d6657d9" category="admonition">Si vous n'avez pas spécifié manuellement une valeur d'IOPS dans l'environnement de travail, BlueXP augmentera les IOPS de 3 IOPS par Gio de la nouvelle capacité totale. Si vous avez spécifié une valeur IOPS, BlueXP n'ajuste pas les IOPS. Pour plus d'informations sur la configuration des IOPS, reportez-vous <block ref="a0c1e5541590cfd29c35eef67f286e58" category="inline-link-macro-rx"></block>à la section .</block>
+  <block id="c0fde7a894f20194ba5123471f8cf7e7" category="doc">Heure de début de la fenêtre de maintenance</block>
+  <block id="12ad4af5f024e558448bad702ec7ef28" category="section-title">Distribution des données de volume à l'aide de FlexGroups</block>
+  <block id="c63d5220743c53eaddaae4ea5f0511e7" category="section-title">**Mes possibilités** l'onglet est maintenant **mon patrimoine**</block>
+  <block id="479422755a82da93d381b0baab5f8fe7" category="doc">Prise en charge de trois régions supplémentaires</block>
+  <block id="e2be93aaa649a645aba11243985c766e" category="section-title">Générer un groupe de sécurité</block>
+  <block id="aad99a875ad0c9448b68c1367f655aa5" category="paragraph">Lors de la création d'un environnement de travail, vous pouvez désormais disposer d'un BlueXP  <block ref="2dcc7fe33dfc1ec3c2553fdd253353e0" category="inline-link-macro-rx"></block>qui autorise uniquement le trafic au sein du VPC sélectionné. Cette fonction <block ref="4e98d12e63c5c0720c845cda898d916d" category="inline-link-macro-rx"></block>.</block>
+  <block id="5fd8323487c8b69df76423b19fd7e929" category="section-title">Ajouter ou modifier des balises</block>
+  <block id="6f4442b553244ce52c784cc52f701d4b" category="paragraph">Vous pouvez facultativement <block ref="d78637da2799ddfac5dd66dca8e7ea18" category="inline-link-macro-rx"></block> et des <block ref="4a85f9a70555f38d50391396eef17875" category="inline-link-macro-rx"></block> balises pour classer les volumes.</block>
+  <block id="54bbdb510ae0f695a97b35e9620b2429" category="section-title">Augmentation de la limite IOPS</block>
+  <block id="6a017cfe14e32a2ecb3b562a6905c135" category="section-title">Interface utilisateur améliorée</block>
+  <block id="f2be69b635c39988351f6636a52c66bd" category="section-title">Gestion automatique de la capacité</block>
+  <block id="77b6a90689811f67cc803249dffcf057" category="paragraph">Vous pouvez désormais choisir de permettre l'<block ref="1ad077b1d76451dcea34a865ef72a4a2" category="inline-link-macro-rx"></block>ajout de stockage incrémentiel à la demande. La gestion automatique de la capacité interroge le cluster à intervalles réguliers pour évaluer la demande et augmente automatiquement la capacité de stockage par incréments de 10 % à 80 % de la capacité maximale du cluster.</block>
+  <block id="45d8831f16b41217c4087275e351f716" category="paragraph">Vous pouvez maintenant <block ref="5a81e5cffb3de2e4ff731d59ff35b987" category="inline-link-macro-rx"></block> à tout moment après avoir créé l'environnement de travail FSX pour ONTAP.</block>
+  <block id="ca9bb4e7ad7b9dd541f6f55e7b321568" category="section-title">*Fonction mon domaine*</block>
+  <block id="0d984c201ccfc0cec47c6e9aaaa3548c" category="paragraph"><block ref="0d984c201ccfc0cec47c6e9aaaa3548c" category="inline-link-macro-rx"></block></block>
+  <block id="9b453da7e373871ff96466f7161324e9" category="paragraph">Vous pouvez maintenant <block ref="0dcb65269029cdd4c021d02aa3f3aa08" category="inline-link-macro-rx"></block> à tout moment après avoir créé l'environnement de travail FSX pour ONTAP.</block>
+  <block id="016049d3662ab4f0c21871ed98f2bb37" category="section-title">Réplication et synchronisation des données</block>
+  <block id="de33755c2f05576d068c86206230329a" category="paragraph">Vous pouvez désormais <block ref="c82ac41f9f49c13c94f808bac3165e62" category="inline-link-macro-rx"></block> accéder aux systèmes sur site et à d'autres systèmes FSX pour ONTAP en utilisant FSX pour ONTAP comme source.</block>
+  <block id="747d46ff7f4432b15fb87d52f7f0ff2a" category="section-title">Créer un volume iSCSI</block>
+  <block id="fd8c9e37d8db8d27c7b235d307673cf7" category="paragraph">Vous pouvez maintenant <block ref="7edfce83a1793d1d9bff25243a609f09" category="inline-link-macro-rx"></block>.</block>
+  <block id="d79900702dea0a3cbd86163202f91f3a" category="section-title">Prise en charge de Zon à disponibilité unique ou multiple</block>
+  <block id="abe867b96960cc2af1f7063ddfd2ca6d" category="paragraph"><block ref="abe867b96960cc2af1f7063ddfd2ca6d" category="inline-link-macro-rx"></block></block>
+  <block id="4869939e49d1dbdd540bc87d62436a3f" category="section-title">Prise en charge de l'authentification de compte GovCloud</block>
+  <block id="994f04734d0bda22f0c527103d6be0c9" category="paragraph"><block ref="994f04734d0bda22f0c527103d6be0c9" category="inline-link-macro-rx"></block></block>
+  <block id="5b258d27d1686d8aff26c4da65f8b510" category="paragraph"><block ref="1b53e429ea3df93a4ea7e25c176ae236" category="inline-link-macro-rx"></block>.</block>
+  <block id="61dbf7cf47d95446655246c97325220f" category="paragraph">Vous pouvez <block ref="37652122d4cb2db6a33d92a8bdf313a9" category="inline-link-macro-rx"></block> le faire dans FSX pour ONTAP.</block>
+  <block id="7bbd999550cefc7b5baa6a41c10035c1" category="paragraph">Maintenant vous pouvez <block ref="fcf5732b84f39115bb7eec912809d959" category="inline-link-macro-rx"></block>.</block>
+  <block id="c3907d3f6c877cb2a043b5a4fbee371b" category="paragraph">Maintenant vous pouvez <block ref="a480e52e1eed28b86151e9db4a30d9fb" category="inline-link-macro-rx"></block>.</block>
+  <block id="b1be7e05c9b9a6323c9057ee75d0c768" category="paragraph"><block ref="8b96268d04548ada8a46317048a75d5d" category="inline-link-macro-rx"></block>.</block>
+  <block id="9d2d8ed54095e2ac19a91e1fafd44dab" category="paragraph"><block ref="78c1bb33bbb453f41ca8a4b947f8849c" category="inline-link-macro-rx"></block>.</block>
 </blocks>

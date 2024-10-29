@@ -1,0 +1,15 @@
+= Ajout d'une VM de stockage
+:allow-uri-read: 
+
+
+
+
+=== Ajout d'une VM de stockage
+
+C'est possible maintenant link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["Ajout d'une VM de stockage"] Au système de fichiers Amazon FSX pour NetApp ONTAP à l'aide de BlueXP.
+
+
+
+=== **Mes possibilités** l'onglet est maintenant **mon patrimoine**
+
+L'onglet **Mes possibilités** est maintenant **mon patrimoine**. La documentation est mise à jour pour refléter le nouveau nom.
