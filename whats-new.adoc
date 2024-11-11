@@ -18,6 +18,18 @@ Découvrez les nouveautés de FSX pour ONTAP.
 
 
 
+== 11 novembre 2024
+
+
+
+=== FSX for ONTAP s'intègre au stockage dans l'usine de workloads BlueXP 
+
+Les tâches de gestion de système de fichiers FSX for ONTAP, telles que l'ajout de volumes, l'extension de la capacité du système de fichiers et la gestion des machines virtuelles de stockage, sont désormais gérées en usine de workloads BlueXP , un nouveau service proposé par NetApp et Amazon FSX for NetApp ONTAP. Vous pouvez utiliser vos informations d'identification et autorisations existantes comme auparavant. La différence est que vous pouvez désormais faire plus avec l'usine de workloads BlueXP  pour gérer vos systèmes de fichiers. Lorsque vous ouvrez un environnement de travail FSX pour ONTAP à partir du canevas BlueXP , vous vous rendez directement à l'usine de workloads BlueXP .
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#features["Découvrez les fonctionnalités de FSX for ONTAP en usine de workloads BlueXP "^]
+
+
+
 == 30 juillet 2023
 
 
@@ -43,6 +55,22 @@ C'est possible maintenant link:https://docs.netapp.com/us-en/cloud-manager-fsx-o
 === **Mes possibilités** l'onglet est maintenant **mon patrimoine**
 
 L'onglet **Mes possibilités** est maintenant **mon patrimoine**. La documentation est mise à jour pour refléter le nouveau nom.
+
+
+
+== 04 juin 2023
+
+
+
+=== Heure de début de la fenêtre de maintenance
+
+Quand link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["création d'un environnement de travail"], vous pouvez spécifier l'heure de début de la fenêtre de maintenance hebdomadaire de 30 minutes pour vous assurer que la maintenance n'entre pas en conflit avec les activités critiques de l'entreprise.
+
+
+
+=== Distribution des données de volume à l'aide de FlexGroups
+
+Quand link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["création d'un volume"], Vous pouvez activer l'optimisation des données en créant une FlexGroup pour distribuer les données entre les volumes.
 
 
 

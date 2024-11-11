@@ -22,24 +22,12 @@ sidebar:
       url: "/start/concept-fsx-aws.html"
     - title: Démarrage rapide
       url: "/start/task-getting-started-fsx.html"
-  - title: De formation
-    entries:
     - title: Configurez les autorisations
       url: "/requirements/task-setting-up-permissions-fsx.html"
-    - title: Règles de groupe de sécurité
-      url: "/requirements/reference-security-groups-fsx.html"
-  - title: Utilisez Amazon FSX pour NetApp ONTAP
-    entries:
     - title: Créer ou découvrir un environnement de travail
       url: "/use/task-creating-fsx-working-environment.html"
-    - title: Gérer un environnement de travail
-      url: "/use/task-manage-working-environment.html"
-    - title: Créer et monter un volume
-      url: "/use/task-add-fsx-volumes.html"
-    - title: Gérer les volumes
-      url: "/use/task-manage-fsx-volumes.html"
-    - title: Ajoutez et gérez une VM de stockage
-      url: "/use/task-add-fsx-svm.html"
+  - title: Gérer un système de fichiers FSX pour ONTAP
+    url: "/use/task-manage-working-environment.html"
   - title: Connaissances et support
     entries:
     - title: S'inscrire pour obtenir de l'aide
