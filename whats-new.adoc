@@ -28,6 +28,10 @@ Les tâches de gestion de système de fichiers FSX for ONTAP, telles que l'ajout
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#features["Découvrez les fonctionnalités de FSX for ONTAP en usine de workloads BlueXP "^]
 
+Si vous recherchez l'option _Advanced View_, qui vous permet de gérer un système de fichiers FSX for ONTAP à l'aide du Gestionnaire système ONTAP, vous pouvez désormais trouver cette option dans le canevas BlueXP  après avoir sélectionné l'environnement de travail.
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/screenshot-system-manager.png["Capture d'écran du panneau de droite de la zone de travail BlueXP  après avoir sélectionné un environnement de travail affichant l'option System Manager."]
+
 
 
 == 30 juillet 2023

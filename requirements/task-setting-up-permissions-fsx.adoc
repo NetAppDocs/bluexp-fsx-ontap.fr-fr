@@ -30,7 +30,7 @@ L'interface d'usine des charges de travail offre aux utilisateurs de BlueXP  de
 
 == Description de la tâche
 
-Lorsque vous ajoutez de nouveaux identifiants pour FSX pour ONTAP à partir du stockage en usine de workloads BlueXP , vous devez décider quel niveau d'autorisations, ou _mode opérationnel_, vous souhaitez utiliser. Pour découvrir et déployer des ressources AWS comme FSX pour les systèmes de fichiers ONTAP, vous avez besoin d'autorisations _read_ ou _automatisera_. BlueXP  FSX pour ONTAP fonctionnera en _Basic_ mode, à moins que vous ne sélectionniez _read_ mode ou _automate_ mode. link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html.html["En savoir plus sur les modes de fonctionnement"].
+Lorsque vous ajoutez de nouveaux identifiants pour FSX pour ONTAP à partir du stockage en usine de workloads BlueXP , vous devez décider quel niveau d'autorisations, ou _mode opérationnel_, vous souhaitez utiliser. Pour découvrir et déployer des ressources AWS comme FSX pour les systèmes de fichiers ONTAP, vous avez besoin d'autorisations _read_ ou _automatisera_. BlueXP  FSX pour ONTAP fonctionnera en _Basic_ mode, à moins que vous ne sélectionniez _read_ mode ou _automate_ mode. link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["En savoir plus sur les modes de fonctionnement"].
 
 Les informations d'identification AWS nouvelles et existantes peuvent être consultées à partir de la page Paramètres BlueXP  > *informations d'identification*.
 

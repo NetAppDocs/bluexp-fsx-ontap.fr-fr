@@ -28,7 +28,7 @@ Une VM de stockage est créée lors de la création d'un système de fichiers.
 .Avant de commencer
 Avant de créer votre système de fichiers FSX pour ONTAP, vous aurez besoin des éléments suivants :
 
-* ARN d'un rôle IAM qui donne à Workload Factory les autorisations nécessaires pour créer un système de fichiers FSX pour ONTAP. link:task-setting-up-permissions-fsx.html["Découvrez comment accorder des autorisations à un compte AWS"^].
+* ARN d'un rôle IAM qui donne à Workload Factory les autorisations nécessaires pour créer un système de fichiers FSX pour ONTAP. link:../requirements/task-setting-up-permissions-fsx.html["Découvrez comment accorder des autorisations à un compte AWS"^].
 * La région et les informations VPC pour lesquelles vous allez créer l'instance FSX pour ONTAP.
 
 
