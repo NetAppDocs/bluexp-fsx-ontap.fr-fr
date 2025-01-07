@@ -18,6 +18,18 @@ Découvrez les nouveautés de FSX pour ONTAP.
 
 
 
+== 06 janvier 2025
+
+
+
+=== NetApp publie d'autres ressources CloudFormation
+
+NetApp fournit désormais des ressources CloudFormation qui permettent aux clients d'utiliser des composants ONTAP avancés qui ne sont pas exposés dans la console AWS. CloudFormation est le mécanisme d'infrastructure-as-code d'AWS. Vous pourrez créer des relations de réplication, des partages CIFS, des règles d'exportation NFS, des snapshots, etc.
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html["Gérez les systèmes de fichiers Amazon FSX pour NetApp ONTAP à l'aide de CloudFormation"]
+
+
+
 == 11 novembre 2024
 
 

@@ -34,6 +34,14 @@ image:screenshot-system-manager.png["Capture d'écran du panneau de droite de la
 
 
 
+== Gérez un système de fichiers à l'aide d'Amazon CloudFormation
+
+Vous pouvez provisionner et gérer des ressources du système de fichiers FSX pour ONTAP (volumes, partages CIFS, règles d'exportation, etc.) à l'aide d'Amazon CloudFormation.
+
+link:https://github.com/NetApp/NetApp-CloudFormation-FSx-ONTAP-provider[""]
+
+
+
 == Utilisez les services de données BlueXP  avec un système de fichiers
 
 Utilisez les services de données BlueXP  avec vos systèmes de fichiers FSX pour ONTAP pour sauvegarder et restaurer vos données, transférer et synchroniser, analyser et classer vos données, répliquer les données et accélérer l'accès ou le trafic de déchargement.

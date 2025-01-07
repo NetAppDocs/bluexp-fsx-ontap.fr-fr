@@ -30,7 +30,7 @@ L'interface d'usine des charges de travail offre aux utilisateurs de BlueXP  de
 
 == Description de la tâche
 
-Lorsque vous ajoutez de nouveaux identifiants pour FSX pour ONTAP à partir du stockage en usine de workloads BlueXP , vous devez décider quel niveau d'autorisations, ou _mode opérationnel_, vous souhaitez utiliser. Pour découvrir et déployer des ressources AWS comme FSX pour les systèmes de fichiers ONTAP, vous avez besoin d'autorisations _read_ ou _automatisera_. BlueXP  FSX pour ONTAP fonctionnera en _Basic_ mode, à moins que vous ne sélectionniez _read_ mode ou _automate_ mode. link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["En savoir plus sur les modes de fonctionnement"].
+Lorsque vous ajoutez de nouveaux identifiants pour FSX pour ONTAP à partir du stockage en usine de workloads BlueXP , vous devez décider quel niveau d'autorisations, ou _mode opérationnel_, vous souhaitez utiliser. Pour découvrir et déployer des ressources AWS comme FSX pour les systèmes de fichiers ONTAP, vous avez besoin d'autorisations _read_ ou _automatisera_. BlueXP  FSX pour ONTAP fonctionnera en _Basic_ mode, à moins que vous ne sélectionniez _read_ mode ou _automate_ mode. _Read_ sont les mêmes que les autorisations de vue. _Automate_ sont les mêmes que les autorisations d'opération. link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["En savoir plus sur les modes de fonctionnement"].
 
 Les informations d'identification AWS nouvelles et existantes peuvent être consultées à partir de la page Paramètres BlueXP  > *informations d'identification*.
 
@@ -73,9 +73,9 @@ image:screenshot-add-credentials-manually.png["Capture d'écran montrant les él
 
 
 
-=== Étape 1 : sélectionnez les fonctionnalités du workload et créez les règles IAM
+=== Étape 1 : sélectionner la fonctionnalité de stockage et créer la règle IAM
 
-Dans cette section, vous allez choisir les types de capacités de charge de travail qui seront gérables dans le cadre de ces informations d'identification, et les autorisations activées pour chaque charge de travail. Vous devrez copier les autorisations de règles pour chaque workload sélectionné dans la Codebox et les ajouter à la console de gestion AWS de votre compte AWS pour créer les stratégies.
+Dans cette section, vous allez choisir la capacité de stockage à gérer dans le cadre de ces informations d'identification, ainsi que les autorisations activées pour le stockage. Vous avez également la possibilité de sélectionner d'autres charges de travail comme les bases de données, GenAI ou VMware. Une fois que vous avez effectué vos sélections, vous devez copier les autorisations de règle pour chaque workload sélectionné dans la zone de code et les ajouter à la console de gestion AWS de votre compte AWS pour créer les stratégies.
 
 image:screenshot-create-policies-manual.png["Une capture d'écran montrant quels types de capacités de charge de travail seront gérables dans le cadre des stratégies contenues dans ces informations d'identification."]
 
@@ -86,6 +86,51 @@ Vous pouvez ajouter des fonctionnalités supplémentaires par la suite. Il vous 
 
 . Pour les fonctionnalités de charge de travail qui offrent un choix de niveaux d'autorisation (automatisation ou lecture), sélectionnez le type d'autorisations qui seront disponibles avec ces informations d'identification. link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Découvrez les autorisations, également appelées modes opérationnels"^].
 . Dans la fenêtre Codebox, copiez les autorisations de la première politique IAM.
++
+Les autorisations de stockage peuvent également être copiées à partir des onglets suivants.
+
++
+[role="tabbed-block"]
+====
+.Autorisations de lecture
+--
+[source, json]
+----
+        "fsx:Describe*",
+        "fsx:ListTagsForResource",
+        "ec2:Describe*",
+        "kms:Describe*",
+        "elasticfilesystem:Describe*",
+        "kms:List*",
+        "cloudwatch:GetMetricData",
+        "cloudwatch:GetMetricStatistics"
+----
+--
+.Automatisez les autorisations
+--
+[source, json]
+----
+        "fsx:*",
+        "ec2:Describe*",
+        "ec2:CreateTags",
+        "ec2:CreateSecurityGroup",
+        "iam:CreateServiceLinkedRole",
+        "kms:Describe*",
+        "elasticfilesystem:Describe*",
+        "kms:List*",
+        "kms:CreateGrant",
+        "cloudwatch:PutMetricData",
+        "cloudwatch:GetMetricData",
+        "iam:SimulatePrincipalPolicy",
+        "cloudwatch:GetMetricStatistics"
+        "ec2:AuthorizeSecurityGroupEgress",
+        "ec2:AuthorizeSecurityGroupIngress",
+        "ec2:RevokeSecurityGroupEgress",
+        "ec2:RevokeSecurityGroupIngress",
+        "ec2:DeleteSecurityGroup"
+----
+--
+====
 . Ouvrez une autre fenêtre de navigateur et connectez-vous à votre compte AWS dans la console de gestion AWS.
 . Ouvrez le service IAM, puis sélectionnez *stratégies* > *Créer une stratégie*.
 . Sélectionnez JSON comme type de fichier, collez les autorisations que vous avez copiées à l'étape 3, puis sélectionnez *Suivant*.
