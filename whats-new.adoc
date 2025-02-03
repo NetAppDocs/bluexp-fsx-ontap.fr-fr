@@ -50,7 +50,7 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-monitor-operations.
 
 CloudShell est disponible lorsque vous travaillez avec des charges de travail BlueXP  au sein de la console BlueXP . CloudShell vous permet d'utiliser les informations d'identification AWS et ONTAP que vous avez fournies dans votre compte BlueXP  et d'exécuter les commandes CLI AWS ou les commandes de l'interface de ligne de commande ONTAP dans un environnement de type shell.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html#before-you-begin["Utilisez CloudShell"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Utilisez CloudShell"^]
 
 
 
