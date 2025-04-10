@@ -77,7 +77,7 @@ image:screenshot-add-credentials-manually.png["Capture d'écran montrant les él
 
 Dans cette section, vous allez choisir la capacité de stockage à gérer dans le cadre de ces informations d'identification, ainsi que les autorisations activées pour le stockage. Vous avez également la possibilité de sélectionner d'autres charges de travail comme les bases de données, GenAI ou VMware. Une fois que vous avez effectué vos sélections, vous devez copier les autorisations de règle pour chaque workload sélectionné dans la zone de code et les ajouter à la console de gestion AWS de votre compte AWS pour créer les stratégies.
 
-image:screenshot-create-policies-manual.png["Une capture d'écran montrant quels types de capacités de charge de travail seront gérables dans le cadre des stratégies contenues dans ces informations d'identification."]
+image:screenshot-create-policies-manual-permissions-check.png["Une capture d'écran montrant quels types de capacités de charge de travail seront gérables dans le cadre des stratégies contenues dans ces informations d'identification."]
 
 .Étapes
 . Dans la section *Créer des stratégies*, activez chacune des capacités de charge de travail que vous souhaitez inclure dans ces informations d'identification. Activez *Storage* pour créer et gérer des systèmes de fichiers.
@@ -85,6 +85,7 @@ image:screenshot-create-policies-manual.png["Une capture d'écran montrant quels
 Vous pouvez ajouter des fonctionnalités supplémentaires par la suite. Il vous suffit de sélectionner les charges de travail à déployer et à gérer.
 
 . Pour les fonctionnalités de charge de travail qui offrent un choix de niveaux d'autorisation (automatisation ou lecture), sélectionnez le type d'autorisations qui seront disponibles avec ces informations d'identification. link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Découvrez les autorisations, également appelées modes opérationnels"^].
+. Facultatif : sélectionnez *Activer la vérification automatique des autorisations* pour vérifier si vous disposez des autorisations de compte AWS requises pour effectuer les opérations de charge de travail. L'activation de la vérification ajoute le `iam:SimulatePrincipalPolicy permission` à vos stratégies d'autorisation. L'objectif de cette autorisation est de confirmer les autorisations uniquement. Vous pouvez supprimer l'autorisation après avoir ajouté des informations d'identification, mais nous vous recommandons de la conserver pour empêcher la création de ressources pour des opérations partiellement réussies et pour vous enregistrer de tout nettoyage manuel des ressources requis.
 . Dans la fenêtre Codebox, copiez les autorisations de la première politique IAM.
 +
 Les autorisations de stockage peuvent également être copiées à partir des onglets suivants.
@@ -129,51 +130,50 @@ Les autorisations de stockage peuvent également être copiées à partir des on
 [source, json]
 ----
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "fsx:*",
-                "ec2:Describe*",
-                "ec2:CreateTags",
-                "ec2:CreateSecurityGroup",
-                "iam:CreateServiceLinkedRole",
-                "kms:Describe*",
-                "elasticfilesystem:Describe*",
-                "kms:List*",
-                "kms:CreateGrant",
-                "cloudwatch:PutMetricData",
-                "cloudwatch:GetMetricData",
-                "iam:SimulatePrincipalPolicy",
-                "cloudwatch:GetMetricStatistics"
-            ],
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "ec2:AuthorizeSecurityGroupEgress",
-                "ec2:AuthorizeSecurityGroupIngress",
-                "ec2:RevokeSecurityGroupEgress",
-                "ec2:RevokeSecurityGroupIngress",
-                "ec2:DeleteSecurityGroup"
-            ],
-            "Resource": "*",
-            "Condition": {
-                "StringLike": {
-                    "ec2:ResourceTag/AppCreator": "NetappFSxWF"
-                }
-            }
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "iam:SimulatePrincipalPolicy"
-            ],
-            "Resource": "*"
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "fsx:*",
+        "ec2:Describe*",
+        "ec2:CreateTags",
+        "ec2:CreateSecurityGroup",
+        "iam:CreateServiceLinkedRole",
+        "kms:Describe*",
+        "elasticfilesystem:Describe*",
+        "kms:List*",
+        "kms:CreateGrant",
+        "cloudwatch:PutMetricData",
+        "cloudwatch:GetMetricData",
+        "cloudwatch:GetMetricStatistics"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:AuthorizeSecurityGroupEgress",
+        "ec2:AuthorizeSecurityGroupIngress",
+        "ec2:RevokeSecurityGroupEgress",
+        "ec2:RevokeSecurityGroupIngress",
+        "ec2:DeleteSecurityGroup"
+      ],
+      "Resource": "*",
+      "Condition": {
+        "StringLike": {
+          "ec2:ResourceTag/AppCreator": "NetappFSxWF"
         }
-    ]
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:SimulatePrincipalPolicy"
+      ],
+      "Resource": "*"
+    }
+  ]
 }
 ----
 --
@@ -278,6 +278,7 @@ image:screenshot-add-credentials-cloudformation.png["Capture d'écran montrant l
 +
 Vous pouvez ajouter des fonctionnalités supplémentaires par la suite. Il vous suffit de sélectionner les charges de travail à déployer et à gérer.
 
+. Facultatif : sélectionnez *Activer la vérification automatique des autorisations* pour vérifier si vous disposez des autorisations de compte AWS requises pour effectuer les opérations de charge de travail. L'activation de la vérification ajoute l' `iam:SimulatePrincipalPolicy`autorisation à vos stratégies d'autorisation. L'objectif de cette autorisation est de confirmer les autorisations uniquement. Vous pouvez supprimer l'autorisation après avoir ajouté des informations d'identification, mais nous vous recommandons de la conserver pour empêcher la création de ressources pour des opérations partiellement réussies et pour vous enregistrer de tout nettoyage manuel des ressources requis.
 . Sous *Nom des informations d'identification*, entrez le nom que vous souhaitez utiliser pour ces informations d'identification.
 . Ajoutez les informations d'identification à partir d'AWS CloudFormation :
 +
