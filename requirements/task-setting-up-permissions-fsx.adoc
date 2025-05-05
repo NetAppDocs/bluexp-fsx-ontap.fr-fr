@@ -30,7 +30,7 @@ L'interface d'usine des charges de travail offre aux utilisateurs de BlueXP  de
 
 == Description de la tâche
 
-Lorsque vous ajoutez de nouveaux identifiants pour FSX pour ONTAP à partir du stockage en usine de workloads BlueXP , vous devez décider quel niveau d'autorisations, ou _mode opérationnel_, vous souhaitez utiliser. Pour découvrir et déployer des ressources AWS comme FSX pour les systèmes de fichiers ONTAP, vous avez besoin d'autorisations _read_ ou _automatisera_. BlueXP  FSX pour ONTAP fonctionnera en _Basic_ mode, à moins que vous ne sélectionniez _read_ mode ou _automate_ mode. _Read_ sont les mêmes que les autorisations de vue. _Automate_ sont les mêmes que les autorisations d'opération. link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["En savoir plus sur les modes de fonctionnement"].
+Lorsque vous ajoutez de nouvelles informations d'identification pour FSX for ONTAP à partir du stockage en usine de workloads BlueXP , vous devez décider quel niveau d'autorisations, ou _mode opérationnel_, vous souhaitez utiliser. Pour découvrir et déployer des ressources AWS comme FSX for ONTAP, vous avez besoin d'autorisations _en lecture seule_ ou _en lecture/écriture_. BlueXP  FSX pour ONTAP fonctionnera en _Basic_ mode, sauf si vous sélectionnez _Read-Only_ mode ou _Read/Write_ mode. _Lecture seule_ sont les mêmes que les autorisations de vue. _Read/Write_ sont les mêmes que les autorisations d'opération. link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["En savoir plus sur les modes de fonctionnement"].
 
 Les informations d'identification AWS nouvelles et existantes peuvent être consultées à partir de la page Paramètres BlueXP  > *informations d'identification*.
 
@@ -84,7 +84,7 @@ image:screenshot-create-policies-manual-permissions-check.png["Une capture d'éc
 +
 Vous pouvez ajouter des fonctionnalités supplémentaires par la suite. Il vous suffit de sélectionner les charges de travail à déployer et à gérer.
 
-. Pour les fonctionnalités de charge de travail qui offrent un choix de niveaux d'autorisation (automatisation ou lecture), sélectionnez le type d'autorisations qui seront disponibles avec ces informations d'identification. link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Découvrez les autorisations, également appelées modes opérationnels"^].
+. Pour les fonctionnalités de charge de travail qui offrent un choix de niveaux d'autorisation (lecture/écriture ou lecture seule), sélectionnez le type d'autorisations qui seront disponibles avec ces informations d'identification. link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Découvrez les autorisations, également appelées modes opérationnels"^].
 . Facultatif : sélectionnez *Activer la vérification automatique des autorisations* pour vérifier si vous disposez des autorisations de compte AWS requises pour effectuer les opérations de charge de travail. L'activation de la vérification ajoute le `iam:SimulatePrincipalPolicy permission` à vos stratégies d'autorisation. L'objectif de cette autorisation est de confirmer les autorisations uniquement. Vous pouvez supprimer l'autorisation après avoir ajouté des informations d'identification, mais nous vous recommandons de la conserver pour empêcher la création de ressources pour des opérations partiellement réussies et pour vous enregistrer de tout nettoyage manuel des ressources requis.
 . Dans la fenêtre Codebox, copiez les autorisations de la première politique IAM.
 +
@@ -93,7 +93,7 @@ Les autorisations de stockage peuvent également être copiées à partir des on
 +
 [role="tabbed-block"]
 ====
-.Autorisations de lecture
+.Autorisations en lecture seule
 --
 [source, json]
 ----
@@ -125,7 +125,7 @@ Les autorisations de stockage peuvent également être copiées à partir des on
 }
 ----
 --
-.Automatisez les autorisations
+.Autorisations de lecture/écriture
 --
 [source, json]
 ----
@@ -236,32 +236,32 @@ Vous pouvez ajouter des informations d'identification AWS aux workloads BlueXP 
 [source, json]
 ----
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "cloudformation:CreateStack",
-                "cloudformation:UpdateStack",
-                "cloudformation:DeleteStack",
-                "cloudformation:DescribeStacks",
-                "cloudformation:DescribeStackEvents",
-                "cloudformation:DescribeChangeSet",
-                "cloudformation:ExecuteChangeSet",
-                "cloudformation:ListStacks",
-                "cloudformation:ListStackResources",
-                "cloudformation:GetTemplate",
-                "cloudformation:ValidateTemplate",
-                "lambda:InvokeFunction",
-                "iam:PassRole",
-                "iam:CreateRole",
-                "iam:UpdateAssumeRolePolicy",
-                "iam:AttachRolePolicy",
-                "iam:CreateServiceLinkedRole"
-            ],
-            "Resource": "*"
-        }
-    ]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "cloudformation:CreateStack",
+        "cloudformation:UpdateStack",
+        "cloudformation:DeleteStack",
+        "cloudformation:DescribeStacks",
+        "cloudformation:DescribeStackEvents",
+        "cloudformation:DescribeChangeSet",
+        "cloudformation:ExecuteChangeSet",
+        "cloudformation:ListStacks",
+        "cloudformation:ListStackResources",
+        "cloudformation:GetTemplate",
+        "cloudformation:ValidateTemplate",
+        "lambda:InvokeFunction",
+        "iam:PassRole",
+        "iam:CreateRole",
+        "iam:UpdateAssumeRolePolicy",
+        "iam:AttachRolePolicy",
+        "iam:CreateServiceLinkedRole"
+      ],
+      "Resource": "*"
+    }
+  ]
 }
 ----
 

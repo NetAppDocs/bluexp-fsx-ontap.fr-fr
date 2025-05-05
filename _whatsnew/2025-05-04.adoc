@@ -1,0 +1,39 @@
+= Assistance de suivi
+:allow-uri-read: 
+
+
+
+
+=== Assistance de suivi
+
+Tracker fournit désormais des réponses API pour que vous puissiez voir la sortie de l'API REST associée à la tâche.
+
+
+
+=== Prise en charge de l'authentification de liens pour AWS secrets Manager
+
+Vous avez désormais la possibilité d'utiliser les secrets d'AWS secrets Manager pour authentifier les liens afin de ne pas avoir à utiliser les identifiants stockés dans les workloads BlueXP .
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Connectez-vous à un système de fichiers FSX pour ONTAP via un lien Lambda"]
+
+
+
+=== Implémentez les bonnes pratiques pour un système de fichiers FSX pour ONTAP
+
+Les charges de travail BlueXP  fournissent un tableau de bord dans lequel vous pouvez consulter l'état de l'architecture de vos configurations de système de fichiers. Cette analyse vous permet d'implémenter les bonnes pratiques pour vos systèmes de fichiers FSX pour ONTAP. L'analyse de la configuration du système de fichiers comprend les configurations suivantes : seuil de capacité SSD, snapshots locaux programmés, sauvegardes FSX pour ONTAP, Tiering des données et réplication des données à distance.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["En savoir plus sur l'analyse bien conçue pour les configurations de système de fichiers"]
+* link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_well-architected/improve-configurations.html["Implémentez les meilleures pratiques pour vos systèmes de fichiers"]
+
+
+
+
+=== Des notifications bien conçues pour les problèmes liés au système de fichiers
+
+Dans la console BlueXP , les systèmes de fichiers FSX pour ONTAP présentant des problèmes bien conçus affichent désormais une notification dans la zone de dessin indiquant quand les systèmes de fichiers rencontrent des problèmes à résoudre.
+
+
+
+=== Mise à jour de la terminologie des autorisations
+
+L'interface utilisateur et la documentation de l'usine de la charge de travail utilisent désormais « lecture seule » pour faire référence aux autorisations de lecture et « lecture-écriture » pour faire référence aux autorisations d'automatisation.

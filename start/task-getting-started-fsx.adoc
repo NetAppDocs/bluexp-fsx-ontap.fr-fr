@@ -18,7 +18,7 @@ Commencez à utiliser Amazon FSX pour NetApp ONTAP dans BlueXP  en ajoutant des
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Une seule"] link:../requirements/task-setting-up-permissions-fsx.html["Ajoutez des informations d'identification et des autorisations"]
 [role="quick-margin-para"]
-Vous devez ajouter des informations d'identification AWS pour fournir à BlueXP  les autorisations nécessaires à la création et à la gestion des systèmes de fichiers FSX pour ONTAP. Vous pouvez choisir entre _automatiser les autorisations_ et _lire les autorisations_.
+Vous devez ajouter des informations d'identification AWS pour fournir à BlueXP  les autorisations nécessaires à la création et à la gestion des systèmes de fichiers FSX pour ONTAP. Vous pouvez choisir entre les autorisations _lecture/écriture_ et _lecture seule_.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Deux"] Facultatif : créez un connecteur ou un lien
 [role="quick-margin-para"]
