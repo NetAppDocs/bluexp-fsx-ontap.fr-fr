@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: use/task-monitor-operations.html 
-keywords: monitor databases, monitor jobs, track database jobs 
+keywords: monitor jobs, track jobs, monitor, track 
 summary: Suivez FSX pour les opérations ONTAP et surveillez la progression des opérations avec Tracker dans BlueXP . 
 ---
 = Surveillez les opérations FSX pour ONTAP avec le suivi dans BlueXP 
@@ -14,11 +14,11 @@ summary: Suivez FSX pour les opérations ONTAP et surveillez la progression des 
 Surveillez et suivez l'exécution des opérations FSX pour ONTAP et surveillez la progression des tâches avec le système de suivi dans BlueXP .
 
 .Description de la tâche
-BlueXP  fournit le module de suivi, une fonction de surveillance des tâches, qui vous permet de surveiller et de suivre la progression et l'état des informations d'identification, FSX pour ONTAP et les opérations de liaison, de vérifier les détails des tâches et sous-tâches d'opération, de diagnostiquer les problèmes ou les défaillances, de modifier les paramètres pour les opérations ayant échoué et de réessayer les opérations ayant échoué.
+BlueXP  fournit le module de suivi, une fonction de surveillance des tâches, qui vous permet de surveiller et de suivre la progression et l'état des informations d'identification, FSX pour ONTAP et les opérations de liaison, de consulter les détails des tâches et des sous-tâches opérationnelles et de diagnostiquer les problèmes ou défaillances.
 
 Plusieurs actions sont disponibles dans Tracker. Vous pouvez filtrer les travaux par période (24 heures, 7 jours, 14 jours ou 30 jours), charge de travail, état et utilisateur, rechercher des travaux à l'aide de la fonction de recherche et télécharger la table des travaux sous forme de fichier CSV. Vous pouvez actualiser Tracker à tout moment. Vous pouvez également réessayer rapidement une opération ayant échoué ou modifier les paramètres d'une opération ayant échoué et réessayer l'opération.
 
-Tracker prend en charge deux niveaux de surveillance. Chaque tâche, telle que la création d'un système de fichiers, affiche la description de la tâche, l'état, l'heure de début, la durée de la tâche, l'utilisateur, la région, la ressource proxy (association de liens), l'ID de la tâche et toutes les sous-tâches associées.
+Tracker prend en charge deux niveaux de surveillance en fonction de l'opération. Chaque tâche, telle que le déploiement du système de fichiers, affiche la description de la tâche, l'état, l'heure de début, la durée de la tâche, l'utilisateur, la région, la ressource proxy, l'ID de la tâche et toutes les sous-tâches associées. Vous pouvez afficher les réponses de l'API pour comprendre ce qui s'est passé pendant l'opération.
 
 Niveaux de tâche de suivi avec des exemples::
 +
