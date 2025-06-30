@@ -18,6 +18,26 @@ Découvrez les nouveautés de FSX pour ONTAP.
 
 
 
+== 29 juin 2025
+
+
+
+=== Mise à jour des informations d'identification
+
+Après avoir configuré les informations d'identification et les autorisations pour votre système de fichiers FSx for ONTAP, vous serez redirigé vers la page « Informations d'identification BlueXP ». Depuis cette page, vous pouvez renommer ou supprimer vos informations d'identification FSx for ONTAP.
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["Configurer les autorisations pour les systèmes de fichiers FSx pour ONTAP"]
+
+
+
+=== Prise en charge de la réplication des données entre deux systèmes de fichiers FSx for ONTAP
+
+La réplication des données est désormais disponible entre deux systèmes de fichiers FSx for ONTAP à partir de la console BlueXP.
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#replicate-data["Réplication des données"]
+
+
+
 == 04 mai 2025
 
 
@@ -54,7 +74,7 @@ Dans la console BlueXP , les systèmes de fichiers FSX pour ONTAP présentant d
 
 === Mise à jour de la terminologie des autorisations
 
-L'interface utilisateur et la documentation de l'usine de la charge de travail utilisent désormais « lecture seule » pour faire référence aux autorisations de lecture et « lecture-écriture » pour faire référence aux autorisations d'automatisation.
+L'interface utilisateur et la documentation de l'usine de charge de travail utilisent désormais « lecture seule » pour faire référence aux autorisations de lecture et « lecture/écriture » pour faire référence aux autorisations d'automatisation.
 
 
 
