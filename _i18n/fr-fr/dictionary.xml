@@ -50,7 +50,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp devrait vous contacter au cours de ce processus. Il s'agit d'un exercice d'intégration unique pour les nouveaux utilisateurs.</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp prend en charge BlueXP de plusieurs façons. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Obtenez de l'aide</block>
-  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp prend en charge BlueXP et ses services cloud de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, comme des articles de la base de connaissances (KB) et un forum communautaire. Votre inscription au support inclut un support technique à distance via la création de tickets en ligne.</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Ces options sont disponibles gratuitement, 24 heures sur 24, 7 jours sur 7 :</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Base de connaissances</block>
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">Recherchez dans la base de connaissances BlueXP des articles utiles pour résoudre les problèmes.</block>
@@ -218,8 +217,6 @@
   <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">Cette erreur peut signifier que le compte NSS et la société d'enregistrement auquel il est associé n'est pas la même société d'enregistrement pour le numéro de série du compte BlueXP (par exemple 960xxxx) ou le numéro de série de l'environnement de travail. Vous pouvez demander de l'aide en utilisant l'une des options suivantes :</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">L'enregistrement des deux types de numéros de série offre des fonctionnalités telles que l'ouverture de tickets de support et la génération automatique de tickets. L'inscription est terminée en ajoutant des comptes du site de support NetApp (NSS) à BlueXP, comme décrit ci-dessous.</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">Sélectionnez *Ajouter des informations d'identification NSS* et suivez l'invite authentification du site de support NetApp (NSS).</block>
-  <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">Capture d'écran affichant un numéro de série de compte, une case à cocher verte et le texte enregistré pour le support.</block>
-  <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">Si vous possédez déjà des licences et des numéros de série NetApp, mais que vous possédez un compte NSS, vous devez créer un compte NSS et l'associer à votre connexion BlueXP.</block>
   <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">Associez votre nouveau compte NSS à votre connexion BlueXP en suivant les étapes décrites sous <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">Une fois que vous possédez votre compte sur le site de support NetApp, associez-le à votre connexion BlueXP en suivant les étapes décrites sous <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
@@ -675,7 +672,6 @@
   <block id="66985acac7963e5883cef62664b25696" category="inline-link-macro">Configurer les autorisations pour les systèmes de fichiers FSx pour ONTAP</block>
   <block id="2c546aeb894a7ee538c66b6d3f2cdba7" category="paragraph"><block ref="2c546aeb894a7ee538c66b6d3f2cdba7" category="inline-link-macro-rx"></block></block>
   <block id="374920fe25826b7adee398c37f9fc3ed" category="section-title">Prise en charge de la réplication des données entre deux systèmes de fichiers FSx for ONTAP</block>
-  <block id="0d0e1a3896ef0e1ad8e89dad08261572" category="paragraph">La réplication des données est désormais disponible entre deux systèmes de fichiers FSx for ONTAP à partir de la console BlueXP.</block>
   <block id="12bcd6a565798d844427c95531c1c0ec" category="paragraph"><block ref="12bcd6a565798d844427c95531c1c0ec" category="inline-link-macro-rx"></block></block>
   <block id="e9a20287609068cd02682751db28245c" category="paragraph">Lors de l'ajout de nouvelles informations d'identification pour FSx for ONTAP depuis le stockage dans la fabrique de charges de travail BlueXP, vous devez choisir le niveau d'autorisations, ou mode opérationnel, que vous souhaitez utiliser. Pour découvrir et déployer des ressources AWS telles que les systèmes de fichiers FSx for ONTAP, vous aurez besoin d'autorisations de lecture seule ou de lecture/écriture. BlueXP FSx for ONTAP fonctionnera en mode de base, sauf si vous sélectionnez le mode de lecture seule ou de lecture/écriture. _Lecture seule_ sont les mêmes que les autorisations de vue. _Read/Write_ sont les mêmes que les autorisations d'opération. <block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>.</block>
   <block id="173ea16b498d7c64e87a722e884ac9d6" category="list-text">Pour les fonctionnalités de charge de travail qui offrent un choix de niveaux d’autorisation (lecture seule ou lecture/écriture), sélectionnez le type d’autorisations qui seront disponibles avec ces informations d’identification. <block ref="1b00b1a76801899cea6526d97ddbb2de" category="inline-link-macro-rx"></block>.</block>
@@ -726,4 +722,16 @@
   <block id="f2673d4a3fe0162a501d43f5168ae950" category="section-title">14 juillet 2025</block>
   <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
   <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="26beedda3c932bb48fc93a722d410ff6" category="paragraph">La réplication des données est désormais disponible entre deux systèmes de fichiers FSx for ONTAP à partir du canevas de la console BlueXP .</block>
+  <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">Améliorations apportées à l'onglet Relations de réplication</block>
+  <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">Nous avons ajouté plusieurs nouvelles colonnes au tableau des relations de réplication pour vous donner plus d'informations sur vos relations de réplication dans l'onglet *Relations de réplication*. Le tableau comprend désormais les colonnes suivantes :</block>
+  <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">Politique SnapMirror</block>
+  <block id="7d93b9eb1786d863bc7d27df5febb919" category="list-text">Système de fichiers source</block>
+  <block id="144b2facd92022aa813f8fba914dfa05" category="list-text">Système de fichiers cible</block>
+  <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">État de la relation</block>
+  <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">Heure du dernier transfert</block>
+  <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp propose une assistance pour BlueXP et ses services cloud de différentes manières. De nombreuses options d'auto-assistance gratuites sont disponibles 24h/24 et 7j/7, telles que des articles de la base de connaissances et un forum communautaire. Votre inscription au support inclut une assistance technique à distance via un ticket web.</block>
+  <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">Une capture d'écran qui montre un numéro de série de compte, une case à cocher verte et le texte Enregistré pour l'assistance.</block>
+  <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">03 août 2025</block>
 </blocks>
